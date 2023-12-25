@@ -1,0 +1,9 @@
+@use "builtin:dictionary";
+$SOLAR_PANEL_RATE: 0.125;
+$STAYPUTNIK_RATE: 0.025;
+$SOLAR_PANEL_AMOUNT: 2;
+$RATIO: ($SOLAR_PANEL_RATE * $SOLAR_PANEL_AMOUNT)/$STAYPUTNIK_RATE;
+
+:parts #probe* > Module_Command > Data_Command {
+    requiredResources[0]: $value:set("Rate",$value["Rate"]*$RATIO);
+}

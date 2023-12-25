@@ -1,0 +1,62 @@
+====Tier One====
+tNode_0v_start (Starting Rocketry)
+OLD PARTS THAT STILL NEED TO BE MOVED:
+pod_1v_conical_crew,
+parachute_0v
+NEW PARTS:
+probe_0v_spherical_electricity,
+storage_0v_battery_electricity_radial,
+antenna_0v_16,
+antenna_0v_16s,
+engine_0v_methalox_spark,
+fueltank_0v_inline_methalox,
+
+tNode_1v_rockets_01 (Light Launchers) -> (Enhanced Rocketry)
+OLD PARTS THAT STILL NEED TO BE MOVED:
+NEW PARTS:
+fueltank_0v_inline_methalox_doughnut,
+fueltank_0v_radial_methalox_spherical,
+decoupler_0v_inline,
+decoupler_1v_radial,
+
+tNode_1v_rockets_02 (Solid Fuel Boosters) -> (Larger Boosters)
+OLD PARTS THAT STILL NEED TO BE MOVED:
+booster_1v_solid_hammer
+NEW PARTS:
+engine_1v_methalox_swivel,
+fueltank_1v_inline_methalox_1x1,
+fueltank_1v_inline_methalox_1x2,
+decoupler_1v_inline,
+
+tNode_1v_rockets_03 (Orbital Rocketry)
+OLD PARTS THAT STILL NEED TO BE MOVED:
+engine_1v_methalox_terrier
+booster_1v_solid_thumper
+NEW PARTS:
+booster_1v_solid_flea
+engine_1v_methalox_reliant,
+fueltank_1v_inline_methalox_1x4,
+
+
+tNode_1v_aero_01 (Aerodynamics and Stability)
+OLD PARTS THAT STILL NEED TO BE MOVED:
+controlsurface_1v_procedural_light,
+stabilizer_1v_reactionwheel,
+stabilizer_1v_procedural_light,
+NEW PARTS:
+fin_0v_procedural,
+stabilizer_0v_reactionwheel,
+nosecone_1v_hemisphere,
+nosecone_0v
+
+
+
+adapter_1v_conical_0v-1v <- To go into basic construction
+
+====Tier Two====
+
+
+====Tier Three====
+
+
+====Tier Four====

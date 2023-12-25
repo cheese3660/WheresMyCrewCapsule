@@ -1,0 +1,236 @@
+Key,Type,Desc,English
+WMCC/SoundingRocketTen/Name,Text,,Sounding Rocket (10 km)
+WMCC/SoundingRocketTen/Description,Text,,Launch a sounding rocket to 10 km
+WMCC/SoundingRocketSeventy/Name,Text,,Sounding Rocket (70 km)
+WMCC/SoundingRocketSeventy/Description,Text,,Launch a sounding rocket out of the atmosphere
+WMCC/MunarImpactor/Name,Text,,Munar Impactor
+WMCC/MunarImpactor/Description,Text,,Launch a probe that impacts the Mun.
+WMCC/MunarImpactor/Objective,Text,,Crash into the Mun!
+WMCC/MunarImpactor/Brief1,Text,,"Now that we have reached orbit, I have an odd goal for you"
+WMCC/MunarImpactor/Brief2,Text,,"I want you to destroy one of our probes.."
+WMCC/MunarImpactor/Brief3,Text,,"Not on Kerbin mind you, but by smashing it into the Mun!"
+WMCC/MunarImpactor/Brief4,Text,,"I know you can do it!"
+WMCC/MunarImpactor/Debrief1,Text,,"We did it! We smashed a probe into the mun ... for science!"
+WMCC/SoundingRocketHigh/Name,Text,,Sounding Rocket (500 km)
+WMCC/SoundingRocketHigh/Description,Text,,Launch a sounding rocket to 500 km
+WMCC/SoundingRocketHigh/Objective,Text,,Launch a rocket to at least 500 km altitude
+WMCC/SoundingRocketHigh/Brief1,Text,,We gotta go HIGGHHH!
+WMCC/SoundingRocketHigh/Debrief1,Text,,We went HIGGHHH!
+WMCC/Experiments/TelemetryReport,Text,,Telemetry Report
+WMCC/Requirements/TelemetryReport,Text,,Electricity
+WMCC/Flavor/TelemetryReport,Text,,*BEEP* *BOOP* *BEEEEEEEEEEP*
+WMCC/PressurizedCockpit,Text,,"Pressurized Interior"
+WMCC/TechNodes/Names/wmcc_early_sounding_rockets,"Text",,"Early Sounding Rockets"
+WMCC/TechNodes/Descriptions/wmcc_early_sounding_rockets,"Text",,"Welcome to your position director. We found these parts in the shed behind the VAB. I hope they are of use."
+WMCC/TechNodes/Names/wmcc_rapid_planned_disassembly,"Text",,"Rapid Planned Disassembly"
+WMCC/TechNodes/Descriptions/wmcc_rapid_planned_disassembly,"Text",,"When you need to split stuff apart ... explosively."
+WMCC/TechNodes/Descriptions/wmcc_larger_boosters,"Text",,"Sometimes you just need that extra oomf to get your probe to space."
+WMCC/TechNodes/Names/wmcc_larger_boosters,"Text",,"Larger Boosters"
+WMCC/TechNodes/Descriptions/wmcc_more_fuel_tanks,"Text",,"And sometimes you need the extra juice to get that extra *oomf*"
+WMCC/TechNodes/Names/wmcc_more_fuel_tanks,"Text",,"More Fuel Tanks"
+WMCC/TechNodes/Descriptions/wmcc_basic_construction,"Text",,
+WMCC/TechNodes/Names/wmcc_basic_construction,"Text",,"Basic Construction"
+WMCC/TechNodes/Descriptions/wmcc_basic_aerodynamics,"Text",,
+WMCC/TechNodes/Names/wmcc_basic_aerodynamics,"Text",,"Basic Aerodynamics"
+WMCC/TechNodes/Descriptions/wmcc_larger_aerodynamics,"Text",,
+WMCC/TechNodes/Names/wmcc_larger_aerodynamics,"Text",,"Larger Aerodynamics"
+WMCC/TechNodes/Descriptions/wmcc_basic_survivability,"Text",,
+WMCC/TechNodes/Names/wmcc_basic_survivability,"Text",,"Basic Survivability"
+WMCC/TechNodes/Descriptions/wmcc_larger_radial_tanks,"Text",,
+WMCC/TechNodes/Names/wmcc_larger_radial_tanks,"Text",,"Larger Radial Tanks"
+WMCC/TechNodes/Descriptions/wmcc_small_radial_engines,"Text",,
+WMCC/TechNodes/Names/wmcc_small_radial_engines,"Text",,"Small Radial Engines"
+WMCC/TechNodes/Descriptions/wmcc_early_jet_planes,"Text",,
+WMCC/TechNodes/Names/wmcc_early_jet_planes,"Text",,"Early Jet Planes"
+WMCC/TechNodes/Descriptions/wmcc_monopropellant_engines,"Text",,
+WMCC/TechNodes/Names/wmcc_monopropellant_engines,"Text",,"Monopropellant Engines"
+WMCC/TechNodes/Descriptions/wmcc_early_electronics,"Text",,
+WMCC/TechNodes/Names/wmcc_early_electronics,"Text",,"Early Electronics"
+WMCC/TechNodes/Descriptions/wmcc_larger_methalox_engines,"Text",,
+WMCC/TechNodes/Names/wmcc_larger_methalox_engines,"Text",,"Larger Methalox Engines"
+WMCC/TechNodes/Descriptions/wmcc_better_srbs,"Text",,
+WMCC/TechNodes/Names/wmcc_better_srbs,"Text",,"Better SRBs"
+WMCC/TechNodes/Descriptions/wmcc_intermediate_construction,"Text",,
+WMCC/TechNodes/Names/wmcc_intermediate_construction,"Text",,"Intermediate Construction"
+WMCC/TechNodes/Descriptions/wmcc_better_probes,"Text",,
+WMCC/TechNodes/Names/wmcc_better_probes,"Text",,"Better Probes"
+WMCC/TechNodes/Descriptions/wmcc_advanced_survivability,"Text",,
+WMCC/TechNodes/Names/wmcc_advanced_survivability,"Text",,"Advanced Survivability"
+WMCC/TechNodes/Descriptions/wmcc_early_science,"Text",,
+WMCC/TechNodes/Names/wmcc_early_science,"Text",,"Early Science"
+WMCC/TechNodes/Descriptions/wmcc_better_electronics,"Text",,
+WMCC/TechNodes/Names/wmcc_better_electronics,"Text",,"Better Electronics"
+WMCC/TechNodes/Descriptions/wmcc_orbital_maneuvering,"Text",,
+WMCC/TechNodes/Names/wmcc_orbital_maneuvering,"Text",,"Orbital Maneuvering"
+WMCC/TechNodes/Descriptions/wmcc_miniaturized_science,"Text",,
+WMCC/TechNodes/Names/wmcc_miniaturized_science,"Text",,"Miniaturized Science"
+WMCC/TechNodes/Descriptions/wmcc_munar_range_rocketry,"Text",,
+WMCC/TechNodes/Names/wmcc_munar_range_rocketry,"Text",,"Munar Range Rocketry"
+WMCC/TechNodes/Descriptions/wmcc_efficient_small_engines,"Text",,
+WMCC/TechNodes/Names/wmcc_efficient_small_engines,"Text",,"Efficient Small Engines"
+WMCC/TechNodes/Descriptions/wmcc_longer_range_communications,"Text",,
+WMCC/TechNodes/Names/wmcc_longer_range_communications,"Text",,"Longer Range Communications"
+WMCC/TechNodes/Descriptions/wmcc_crewed_rocketry,"Text",,
+WMCC/TechNodes/Names/wmcc_crewed_rocketry,"Text",,"Crewed Rocketry"
+WMCC/TechNodes/Descriptions/wmcc_crewed_landings,"Text",,
+WMCC/TechNodes/Names/wmcc_crewed_landings,"Text",,"Crewed Landings"
+WMCC/TechNodes/Descriptions/wmcc_small_payload_bays,"Text",,
+WMCC/TechNodes/Names/wmcc_small_payload_bays,"Text",,"Small Payload Bays"
+WMCC/TechNodes/Descriptions/wmcc_trusses,"Text",,
+WMCC/TechNodes/Names/wmcc_trusses,"Text",,"Trusses, Junctions, Resizers, Oh My"
+WMCC/TechNodes/Descriptions/wmcc_larger_trusses_and_junctions,"Text",,
+WMCC/TechNodes/Names/wmcc_larger_trusses_and_junctions,"Text",,"Larger Trusses and Junctions"
+WMCC/TechNodes/Descriptions/wmcc_better_planned_disassembly,"Text",,"For when your planning for disassembly doesn't go well enough."
+WMCC/TechNodes/Names/wmcc_better_planned_disassembly,"Text",,"Better Planned Disassembly"
+WMCC/TechNodes/Descriptions/wmcc_larger_orbital_rockets,"Text",,
+WMCC/TechNodes/Names/wmcc_larger_orbital_rockets,"Text",,"Larger Orbital Rockets"
+WMCC/TechNodes/Descriptions/wmcc_better_landing_engines,"Text",,
+WMCC/TechNodes/Names/wmcc_better_landing_engines,"Text",,"Better Landing Engines"
+WMCC/TechNodes/Descriptions/wmcc_fuel_lines,"Text",,
+WMCC/TechNodes/Names/wmcc_fuel_lines,"Text",,"Fuel Lines"
+WMCC/TechNodes/Descriptions/wmcc_even_larger_boosters,"Text",,
+WMCC/TechNodes/Names/wmcc_even_larger_boosters,"Text",,"Even Larger Boosters"
+WMCC/TechNodes/Descriptions/wmcc_larger_probes,"Text",,
+WMCC/TechNodes/Names/wmcc_larger_probes,"Text",,"Larger Probes"
+WMCC/TechNodes/Descriptions/wmcc_even_longer_range_communications,"Text",,
+WMCC/TechNodes/Names/wmcc_even_longer_range_communications,"Text",,"Even Longer Range Communications"
+WMCC/TechNodes/Descriptions/wmcc_advanced_electronics,"Text",,
+WMCC/TechNodes/Names/wmcc_advanced_electronics,"Text",,"Advanced Electronics"
+WMCC/TechNodes/Descriptions/wmcc_atmospheric_science,"Text",,
+WMCC/TechNodes/Names/wmcc_atmospheric_science,"Text",,"Atmospheric Science"
+WMCC/TechNodes/Descriptions/wmcc_advanced_construction,"Text",,
+WMCC/TechNodes/Names/wmcc_advanced_construction,"Text",,"Advanced Construction"
+WMCC/TechNodes/Descriptions/wmcc_ionic_power,"Text",,
+WMCC/TechNodes/Names/wmcc_ionic_power,"Text",,"Ionic Power"
+WMCC/TechNodes/Descriptions/wmcc_efficient_launch_systems,"Text",,
+WMCC/TechNodes/Names/wmcc_efficient_launch_systems,"Text",,"Efficient Launch Systems"
+WMCC/TechNodes/Descriptions/wmcc_larger_srbs,"Text",,
+WMCC/TechNodes/Names/wmcc_larger_srbs,"Text",,"Larger SRBs"
+WMCC/TechNodes/Descriptions/wmcc_advanced_adapters_and_connectors,"Text",,
+WMCC/TechNodes/Names/wmcc_advanced_adapters_and_connectors,"Text",,"Advanced Adapters And Connectors"
+WMCC/TechNodes/Descriptions/wmcc_enhanced_disassembly,"Text",,
+WMCC/TechNodes/Names/wmcc_enhanced_disassembly,"Text",,"Enhanced Disassembly"
+WMCC/TechNodes/Descriptions/wmcc_early_docking_ports,"Text",,
+WMCC/TechNodes/Names/wmcc_early_docking_ports,"Text",,"Early Docking Ports"
+WMCC/TechNodes/Descriptions/wmcc_docking_ports,"Text",,
+WMCC/TechNodes/Names/wmcc_docking_ports,"Text",,"Rapid Planned Reassembly"
+WMCC/TechNodes/Descriptions/wmcc_advanced_aerodynamics,"Text",,"New node description"
+WMCC/TechNodes/Names/wmcc_advanced_aerodynamics,"Text",,"Advanced Aerodynamics"
+WMCC/TechNodes/Descriptions/wmcc_larger_jets,"Text",,
+WMCC/TechNodes/Names/wmcc_larger_jets,"Text",,"Larger Jets"
+WMCC/TechNodes/Descriptions/wmcc_mark_two_jet_planes,"Text",,
+WMCC/TechNodes/Names/wmcc_mark_two_jet_planes,"Text",,"Mark 2 Jet Planes"
+WMCC/TechNodes/Descriptions/wmcc_high_altitude_aviation,"Text",,
+WMCC/TechNodes/Names/wmcc_high_altitude_aviation,"Text",,"High Altitude Aviation"
+WMCC/TechNodes/Descriptions/wmcc_passengers_and_cargo,"Text",,
+WMCC/TechNodes/Names/wmcc_passengers_and_cargo,"Text",,"Passengers And Cargo"
+WMCC/TechNodes/Descriptions/wmcc_larger_payloads,"Text",,
+WMCC/TechNodes/Names/wmcc_larger_payloads,"Text",,"Larger Payloads"
+WMCC/TechNodes/Descriptions/wmcc_even_larger_trusses,"Text",,
+WMCC/TechNodes/Names/wmcc_even_larger_trusses,"Text",,"Even Larger Trusses"
+WMCC/TechNodes/Descriptions/wmcc_even_larger_adapters,"Text",,
+WMCC/TechNodes/Names/wmcc_even_larger_adapters,"Text",,"Even Larger Adapters"
+WMCC/TechNodes/Descriptions/wmcc_heavier_landers,"Text",,
+WMCC/TechNodes/Names/wmcc_heavier_landers,"Text",,"Heavier Landers"
+WMCC/TechNodes/Descriptions/wmcc_safer_rocketry,"Text",,
+WMCC/TechNodes/Names/wmcc_safer_rocketry,"Text",,"Safer Rocketry"
+WMCC/TechNodes/Descriptions/wmcc_safer_rocketry,"Text",,"New node description"
+WMCC/TechNodes/Names/wmcc_safer_rocketry,"Text",,"New node"
+WMCC/TechNodes/Descriptions/wmcc_autonomous_exploration,"Text",,
+WMCC/TechNodes/Names/wmcc_autonomous_exploration,"Text",,"Autonomous Exploration"
+WMCC/TechNodes/Descriptions/wmcc_buggies,"Text",,
+WMCC/TechNodes/Names/wmcc_buggies,"Text",,"Buggies"
+WMCC/TechNodes/Descriptions/wmcc_robotic_arms,"Text",,
+WMCC/TechNodes/Names/wmcc_robotic_arms,"Text",,"Robotic Arms"
+WMCC/TechNodes/Descriptions/wmcc_larger_wheels,"Text",,
+WMCC/TechNodes/Names/wmcc_larger_wheels,"Text",,"Larger Wheels"
+WMCC/TechNodes/Descriptions/wmcc_compact_atmospheric_science,"Text",,
+WMCC/TechNodes/Names/wmcc_compact_atmospheric_science,"Text",,"Compact Atmospheric Science"
+WMCC/TechNodes/Descriptions/wmcc_larger_crew_capsules,"Text",,
+WMCC/TechNodes/Names/wmcc_larger_crew_capsules,"Text",,"Larger Crew Capsules"
+WMCC/TechNodes/Descriptions/wmcc_heavy_orbital_rocketry,"Text",,
+WMCC/TechNodes/Names/wmcc_heavy_orbital_rocketry,"Text",,"Heavy Orbital Rocketry"
+WMCC/TechNodes/Descriptions/wmcc_larger_electronics,"Text",,
+WMCC/TechNodes/Names/wmcc_larger_electronics,"Text",,"Larger Electronics"
+WMCC/TechNodes/Descriptions/wmcc_heavy_launchers,"Text",,
+WMCC/TechNodes/Names/wmcc_heavy_launchers,"Text",,"Heavy Launchers"
+WMCC/TechNodes/Descriptions/wmcc_deep_space_communications,"Text",,
+WMCC/TechNodes/Names/wmcc_deep_space_communications,"Text",,"Deep Space Communications"
+WMCC/TechNodes/Descriptions/wmcc_heavy_maneuvering,"Text",,
+WMCC/TechNodes/Names/wmcc_heavy_maneuvering,"Text",,"Heavy Maneuvering"
+WMCC/TechNodes/Descriptions/wmcc_vacuum_engines,"Text",,
+WMCC/TechNodes/Names/wmcc_vacuum_engines,"Text",,"Vacuum Engines"
+WMCC/TechNodes/Descriptions/wmcc_nuclear_propulsion,"Text",,
+WMCC/TechNodes/Names/wmcc_nuclear_propulsion,"Text",,"Nuclear Propulsion"
+WMCC/TechNodes/Descriptions/wmcc_deep_space_probes,"Text",,"\n"
+WMCC/TechNodes/Names/wmcc_deep_space_probes,"Text",,"Deep Space Probes"
+WMCC/TechNodes/Descriptions/wmcc_deep_space_power,"Text",,
+WMCC/TechNodes/Names/wmcc_deep_space_power,"Text",,"Deep Space Power"
+WMCC/TechNodes/Descriptions/wmcc_nuclear_reactors,"Text",,
+WMCC/TechNodes/Names/wmcc_nuclear_reactors,"Text",,"Nuclear Reactors"
+WMCC/TechNodes/Descriptions/wmcc_larger_solar_panels,"Text",,
+WMCC/TechNodes/Names/wmcc_larger_solar_panels,"Text",,"Larger Solar Panels"
+WMCC/TechNodes/Descriptions/wmcc_radiation_science,"Text",,
+WMCC/TechNodes/Names/wmcc_radiation_science,"Text",,"Radiation Science"
+WMCC/TechNodes/Descriptions/wmcc_orbital_science,"Text",,
+WMCC/TechNodes/Names/wmcc_orbital_science,"Text",,"Orbital Science"
+WMCC/TechNodes/Descriptions/wmcc_large_scale_construction,"Text",,
+WMCC/TechNodes/Names/wmcc_large_scale_construction,"Text",,"Large Scale Construction"
+WMCC/TechNodes/Descriptions/wmcc_large_scale_adapters,"Text",,
+WMCC/TechNodes/Names/wmcc_large_scale_adapters,"Text",,"Large Scale Adapters "
+WMCC/TechNodes/Descriptions/wmcc_heavy_payloads,"Text",,
+WMCC/TechNodes/Names/wmcc_heavy_payloads,"Text",,"Heavy Payloads"
+WMCC/TechNodes/Descriptions/wmcc_larger_scale_disassembly,"Text",,
+WMCC/TechNodes/Names/wmcc_larger_scale_disassembly,"Text",,"Larger Scale Disassembly"
+WMCC/TechNodes/Descriptions/wmcc_better_planned_reassembly,"Text",,
+WMCC/TechNodes/Names/wmcc_better_planned_reassembly,"Text",,"Better Planned Reassembly"
+WMCC/TechNodes/Descriptions/wmcc_robust_aerodynamics,"Text",,
+WMCC/TechNodes/Names/wmcc_robust_aerodynamics,"Text",,"Robust Aerodynamics"
+WMCC/TechNodes/Descriptions/wmcc_advanced_jets,"Text",,
+WMCC/TechNodes/Names/wmcc_advanced_jets,"Text",,"Advanced Jets"
+WMCC/TechNodes/Descriptions/wmcc_widebody_planes,"Text",,
+WMCC/TechNodes/Names/wmcc_widebody_planes,"Text",,"Widebody Planes"
+WMCC/TechNodes/Descriptions/wmcc_very_large_crew_capsules,"Text",,
+WMCC/TechNodes/Names/wmcc_very_large_crew_capsules,"Text",,"Very Large Crew Capsules"
+WMCC/TechNodes/Descriptions/wmcc_very_large_fuel_tanks,"Text",,
+WMCC/TechNodes/Names/wmcc_very_large_fuel_tanks,"Text",,"Very Large Fuel Tanks"
+WMCC/TechNodes/Descriptions/wmcc_very_large_hydrogen_tanks,"Text",,
+WMCC/TechNodes/Names/wmcc_very_large_hydrogen_tanks,"Text",,"Very Large Hydrogen Tanks"
+WMCC/TechNodes/Descriptions/wmcc_large_hydrogen_tanks,"Text",,
+WMCC/TechNodes/Names/wmcc_large_hydrogen_tanks,"Text",,"Large Hydrogen Tanks"
+WMCC/TechNodes/Descriptions/wmcc_efficient_nuclear_propulsion,"Text",,"New node description"
+WMCC/TechNodes/Names/wmcc_efficient_nuclear_propulsion,"Text",,"Efficient Nuclear Propulsion"
+WMCC/TechNodes/Descriptions/wmcc_very_large_electronics,"Text",,"New node description"
+WMCC/TechNodes/Names/wmcc_very_large_electronics,"Text",,"Very Large Electronics"
+WMCC/TechNodes/Descriptions/wmcc_very_large_probes,"Text",,
+WMCC/TechNodes/Names/wmcc_very_large_probes,"Text",,"Very Large Probes"
+WMCC/TechNodes/Descriptions/wmcc_the_not_so_final_frontier,"Text",,
+WMCC/TechNodes/Names/wmcc_the_not_so_final_frontier,"Text",,"The Not So Final Frontier"
+WMCC/TechNodes/Descriptions/wmcc_longer_period_science,"Text",,
+WMCC/TechNodes/Names/wmcc_longer_period_science,"Text",,"Longer Period Science"
+WMCC/TechNodes/Descriptions/wmcc_very_large_construction,"Text",,
+WMCC/TechNodes/Names/wmcc_very_large_construction,"Text",,"Very Large Construction"
+WMCC/TechNodes/Descriptions/wmcc_very_large_trusses,"Text",,"\n"
+WMCC/TechNodes/Names/wmcc_very_large_trusses,"Text",,"Very Large Trusses"
+WMCC/TechNodes/Descriptions/wmcc_very_large_adapters,"Text",,
+WMCC/TechNodes/Names/wmcc_very_large_adapters,"Text",,"Very Large Adapters"
+WMCC/TechNodes/Descriptions/wmcc_very_large_payloads,"Text",,
+WMCC/TechNodes/Names/wmcc_very_large_payloads,"Text",,"Very Large Payloads"
+WMCC/TechNodes/Descriptions/wmcc_interplanetary_truck_simulator,"Text",,
+WMCC/TechNodes/Names/wmcc_interplanetary_truck_simulator,"Text",,"Interplanetary Truck Simulator"
+WMCC/TechNodes/Descriptions/wmcc_very_large_disassembly,"Text",,
+WMCC/TechNodes/Names/wmcc_very_large_disassembly,"Text",,"Very Large Disassembly"
+WMCC/TechNodes/Descriptions/wmcc_very_large_reassembly,"Text",,"New node description"
+WMCC/TechNodes/Names/wmcc_very_large_reassembly,"Text",,"Very Large Reassembly"
+WMCC/TechNodes/Descriptions/wmcc_sstos,"Text",,
+WMCC/TechNodes/Names/wmcc_sstos,"Text",,"SSTOs"
+WMCC/TechNodes/Descriptions/wmcc_mark_three_spaceplanes,"Text",,
+WMCC/TechNodes/Names/wmcc_mark_three_spaceplanes,"Text",,"Mark 3 Spaceplanes"
+WMCC/TechNodes/Descriptions/wmcc_mark_three_payloads,"Text",,
+WMCC/TechNodes/Names/wmcc_mark_three_payloads,"Text",,"Mark 3 Payloads"
+WMCC/TechNodes/Descriptions/wmcc_very_heavy_landings,"Text",,
+WMCC/TechNodes/Names/wmcc_very_heavy_landings,"Text",,"Very Heavy Landings"
+WMCC/TechNodes/Descriptions/wmcc_advanced_electronics_plus,"Text",,
+WMCC/TechNodes/Names/wmcc_advanced_electronics_plus,"Text",,"Advanced Electronics+"
+WMCC/TechNodes/Descriptions/wmcc_methalox_rcs,"Text",,"New node description"
+WMCC/TechNodes/Names/wmcc_methalox_rcs,"Text",,"Methalox RCS"

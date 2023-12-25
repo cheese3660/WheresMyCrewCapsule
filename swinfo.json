@@ -1,0 +1,36 @@
+{
+    "spec": "2.0",
+    "mod_id": "WheresMyCrewCapsule",
+    "author": "Cheese",
+    "name": "Where's my Crew Capsule?",
+    "description": "Redoes the tech tree such that the probes come before crew capsules.",
+    "source": "https://github.com/cheese3660/WheresMyCrewCapsule",
+    "version": "1.0.0",
+    "ksp2_version": {
+        "min": "0.2.0",
+        "max": "*"
+    },
+    "dependencies": [
+        {
+            "id": "com.github.x606.spacewarp",
+            "version": {
+                "min": "1.6.0",
+                "max": "*"
+            }
+        },
+        {
+            "id": "PatchManager",
+            "version": {
+                "min": "0.5.0",
+                "max": "*"
+            }
+        },
+        {
+            "id": "WMCCModules",
+            "version": {
+                "min": "*",
+                "max": "*"
+            }
+        }
+    ]
+}

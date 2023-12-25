@@ -1,0 +1,94 @@
+@new("wmcc_telemetry_report")
+:experiments {
+    DisplayName: "WMCC/Experiments/TelemetryReport";
+    DisplayRequirements: "WMCC/Requirements/TelemetryReport";
+    ExperimentType: "DataType";
+    DataReportDisplayName: "WMCC/Experiments/TelemetryReport";
+    ValidLocations: [
+        {
+            BodyName: "",
+            ScienceSituation: "HighOrbit",
+            RequiresRegion: false,
+            ScienceRegion: ""
+        },
+        {
+            BodyName: "",
+            ScienceSituation: "LowOrbit",
+            RequiresRegion: false,
+            ScienceRegion: ""
+        },
+        {
+            BodyName: "",
+            ScienceSituation: "Atmosphere",
+            RequiresRegion: false,
+            ScienceRegion: ""
+        },
+        {
+            BodyName: "",
+            ScienceSituation: "Landed",
+            RequiresRegion: true,
+            ScienceRegion: ""
+        },
+        {
+            BodyName: "",
+            ScienceSituation: "Splashed",
+            RequiresRegion: true,
+            ScienceRegion: ""
+        },
+    ];
+    DataValue: 3;
+    SampleValue: 0;
+    TransmissionSize: 4;
+    RequiresEVA: false;
+    DataFlavorDescriptions: [
+        {
+            ResearchLocationID: "Default",
+            LocalizationTag: "WMCC/Flavor/TelemetryReport",
+        }
+    ];
+}
+
+
+:parts #probe* {
+    +Module_ScienceExperiment {
+        +Data_ScienceExperiment {
+            ExperimentStandings: [];
+            LastKnownValidSituation: {
+                CelestialBodyScalar: 0.0,
+                ScienceRegionScalar: 0.0,
+                SituationScalar: 0.0,
+                ResearchLocation: null,
+            };
+            Experiments: [
+                {
+                    ExperimentDefinitionID: "wmcc_telemetry_report",
+                    CrewRequired: 0,
+                    TimeToComplete: 30.0,
+                    ContextualExperiment: false,
+                    ResourcesCost: [
+                        {
+                            Rate: 1.0,
+                            ResourceName: "ElectricCharge",
+                            AcceptanceThreshold: 30.0
+                        }
+                    ],
+                    DenyInterruption: false,
+                    ExperimentUsesResources: true,
+                    DeployedBoolAnimatorParamName: "",
+                    CFXName: "fx_science",
+                    SFXEvent: "invalid"
+                }
+            ];
+            NotifyOnCompletion: false;
+            ResourceThresholdMultiplier: 0.25;
+        }
+    }
+    PAMModuleVisualsOverride: +[
+        {
+            PartComponentModuleName: "PartComponentModule_ScienceExperiment",
+            ModuleDisplayName: "WMCC/Experiments/TelemetryReport",
+            ShowHeader: true,
+            ShowFooter: false
+        }
+    ];
+}

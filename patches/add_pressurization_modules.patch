@@ -1,0 +1,54 @@
+:parts #cockpit_1v_m1* {
+    +Module_Pressurization {
+        +Data_Pressurization {
+            TechNodesForPressurization: ["wmcc_crewed_rocketry"];
+            UseScienceToChangePressurization: true;
+            WarningAltitude: 13000.0;
+            KillAltitude: 15000.0;
+        }
+    }
+    PAMModuleVisualsOverride: +[
+        {
+            PartComponentModuleName: "PartComponentModule_Pressurization",
+            ModuleDisplayName: "WMCC/PressurizedCockpit",
+            ShowHeader: true,
+            ShowFooter: false
+        }
+    ];
+}
+:parts (#cockpit_2v_m2*, #cabin_2v_m2_crew) {
+    +Module_Pressurization { 
+        +Data_Pressurization {
+            TechNodesForPressurization: ["wmcc_larger_crew_capsules"];
+            UseScienceToChangePressurization: true;
+            WarningAltitude: 18000.0;
+            KillAltitude: 20000.0;
+        }
+    }
+    PAMModuleVisualsOverride: +[
+        {
+            PartComponentModuleName: "PartComponentModule_Pressurization",
+            ModuleDisplayName: "WMCC/PressurizedCockpit",
+            ShowHeader: true,
+            ShowFooter: false
+        }
+    ];
+}
+:parts #cockpit_3v_m3_crew {
+    +Module_Pressurization { 
+        +Data_Pressurization {
+            TechNodesForPressurization: ["wmcc_very_large_crew_capsules"];
+            UseScienceToChangePressurization: true;
+            WarningAltitude: 28000.0;
+            KillAltitude: 30000.0;
+        }
+    }
+    PAMModuleVisualsOverride: +[
+        {
+            PartComponentModuleName: "PartComponentModule_Pressurization",
+            ModuleDisplayName: "WMCC/PressurizedCockpit",
+            ShowHeader: true,
+            ShowFooter: false
+        }
+    ];
+}

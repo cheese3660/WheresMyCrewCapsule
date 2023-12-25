@@ -1,0 +1,243 @@
+$enable-funny-mission: false;
+
+@use "builtin:missions";
+
+
+@function create-dialog($dialog-key,$expression:"keri_neutral") {
+    @return {
+        ShowsInHistory: true,
+        DialogEntryType: "Text",
+        LocKey: $dialog-key,
+        ContentAddressableKey: $expression,
+    };
+}
+
+
+@new("sounding_rocket_high")
+:missions {
+    MissionGroup: "";
+    name: "WMCC/SoundingRocketHigh/Name";
+    description: "WMCC/SoundingRocketHigh/Description";
+    GameModeFeatureId: "ExplorationMissions";
+    type: "Secondary";
+    Owner: "Agency";
+    state: "Inactive";
+    * > missionStages {
+        +_0 {
+            name: "Check";
+            description: "";
+            Objective: "WMCC/SoundingRocketHigh/Objective";
+            MissionRewardType: "None";
+            DisplayObjective: true;
+            +ConditionSet {
+                +PropertyCondition {
+                    RequireCurrentValue: true;
+                    PropertyTypeAQN: get-property-watcher("VesselSOIPropertyWatcher");
+                    TestWatchedstring: "Kerbin";
+                    propOperator: "EQUAL";
+                    isInput: false;
+                }
+                +PropertyCondition {
+                    RequireCurrentValue: true;
+                    PropertyTypeAQN: get-property-watcher("VesselSeaLevelAltitudePropertyWatcher");
+                    TestWatchedValue: 500000.0;
+                    propOperator: "GREATER";
+                    isInput: false;
+                }
+                ConditionMode: "AND";
+            }
+        }
+        +_1 {
+            name: "Mission Complete";
+            description: "";
+            Objective: "";
+            * > MissionReward {
+                +SciencePoints {
+                    RewardAmount: 30.0;
+                }
+            }
+            * > actions {
+                +MissionResolutionAction {
+                    MissionResolution: "Complete";
+                    StageEvent: "Play_mission_alert_primary";
+                }
+            }
+            IgnoreExceptionBranches: true;
+        }
+    }
+    currentStageIndex: 0;
+    Hidden: false;
+    MissionGranterKey: "MissionGranterProbodobodyne";
+    TriumphLoopVideoKey: "reward_mission_tier1";
+    VisibleRewards: true;
+    pendingCompletionTest: false;
+    maxStageID: 2;
+    uiDisplayType: "Default";
+    * > ContentBranches {
+        +Brief {
+            +MissionCharacterDialogAction {
+                CharacterNameLocKey: "Missions/CharacterName/Keri";
+                CharacterIconKey: "keri_neutral";
+                * > Dialogs {
+                    Entries: [
+                        create-dialog("WMCC/SoundingRocketHigh/Brief1","keri_happy"),
+                    ];
+                }
+            }
+        }
+        +Debrief {
+            +MissionCharacterDialogAction {
+                CharacterNameLocKey: "Missions/CharacterName/Keri";
+                CharacterIconKey: "keri_neutral";
+                * > Dialogs {
+                    Entries: [
+                        create-dialog("WMCC/SoundingRocketHigh/Debrief1","keri_happy"),
+                    ];
+                }
+                EventTypeOnClosed: get-message("SpawnTriumphWindow");
+                StageEvent: "Play_mission_alert_primary_returned_to_missionControl";
+            }
+        }
+        +OnSubmit {
+        }
+    }
+    MissionSaveAssetKey: "";
+}
+
+@new("munar_impactor")
+:missions {
+    MissionGroup: "";
+    name: "WMCC/MunarImpactor/Name";
+    description: "WMCC/MunarImpactor/Description";
+    GameModeFeatureId: "ExplorationMissions";
+    type: "Secondary";
+    Owner: "Agency";
+    state: "Inactive";
+    * > missionStages {
+        +_0 {
+            name: "Check";
+            description: "";
+            Objective: "WMCC/MunarImpactor/Objective";
+            MissionRewardType: "None";
+            DisplayObjective: true;
+            +PropertyCondition {
+                RequireCurrentValue: true;
+                PropertyTypeAQN: get-property-watcher("IsDestroyedByCbCollision");
+                Inputstring: "Mun";
+                TestWathedBool: true;
+                propOperator: "EQUAL";
+                isInput: true;
+            }
+        }
+        +_1 {
+            name: "Mission Complete";
+            description: "";
+            Objective: "";
+            * > MissionReward {
+                +SciencePoints {
+                    RewardAmount: 40.0;
+                }
+            }
+            * > actions {
+                +MissionResolutionAction {
+                    MissionResolution: "Complete";
+                    StageEvent: "Play_mission_alert_primary";
+                }
+            }
+            IgnoreExceptionBranches: true;
+        }
+    }
+    currentStageIndex: 0;
+    Hidden: false;
+    MissionGranterKey: "MissionGranterProbodobodyne";
+    TriumphLoopVideoKey: "reward_mission_tier1";
+    VisibleRewards: true;
+    pendingCompletionTest: false;
+    maxStageID: 2;
+    uiDisplayType: "Default";
+    * > ContentBranches {
+        +Brief {
+            +MissionCharacterDialogAction {
+                CharacterNameLocKey: "Missions/CharacterName/Keri";
+                CharacterIconKey: "keri_neutral";
+                * > Dialogs {
+                    Entries: [
+                        create-dialog("WMCC/MunarImpactor/Brief1"),
+                        create-dialog("WMCC/MunarImpactor/Brief2"),
+                        create-dialog("WMCC/MunarImpactor/Brief3","keri_happy"),
+                        create-dialog("WMCC/MunarImpactor/Brief4","keri_happy"),
+                    ];
+                }
+            }
+        }
+        +Debrief {
+            +MissionCharacterDialogAction {
+                CharacterNameLocKey: "Missions/CharacterName/Keri";
+                CharacterIconKey: "keri_neutral";
+                * > Dialogs {
+                    Entries: [
+                        create-dialog("WMCC/MunarImpactor/Debrief1","keri_happy"),
+                    ];
+                }
+                EventTypeOnClosed: get-message("SpawnTriumphWindow");
+                StageEvent: "Play_mission_alert_primary_returned_to_missionControl";
+            }
+        }
+        +OnSubmit {
+        }
+    }
+    MissionSaveAssetKey: "";
+}
+
+:missions #Main_Kerbin_01 {
+    name: "WMCC/SoundingRocketTen/Name";
+    description: "WMCC/SoundingRocketTen/Description";
+}
+
+:missions #Main_Kerbin_02 {
+    name: "WMCC/SoundingRocketSeventy/Name";
+    description: "WMCC/SoundingRocketSeventy/Description";
+}
+
+:missions #Main_Kerbin_02 > ContentBranches > OnSubmit > ActivateMissionAction {
+    @if $$TargetMissionID == "KSP2Mission_Secondary_Kerbin_Buoyancy" {
+        TargetMissionID: "sounding_rocket_high";
+    }
+}
+
+:missions #Main_Kerbin_03 > ContentBranches > OnSubmit > ActivateMissionAction {
+    @if $$TargetMissionID == "KSP2Mission_Secondary_Kerbin_EVASpace" {
+        TargetMissionID: "munar_impactor";
+    }
+}
+
+:missions #Main_MunOrBust_04 > ContentBranches > OnSubmit {
+    +ActivateMissionAction {
+        TargetMissionID: "KSP2Mission_Secondary_Kerbin_EVASpace";
+        MissionOwner: "Agency";
+    }
+}
+
+:missions #KSP2Mission_Secondary_Mun_Flag > missionStages > _15 > MissionReward > SciencePoints {
+    RewardAmount: 300.0;
+}
+
+:missions #KSP2Mission_Secondary_Kerbin_EVASpace > missionStages > _15 > MissionReward > SciencePoints {
+    RewardAmount: 120.0;
+}
+
+@if $enable-funny-mission {
+    @new("munar_impactor_crewed")
+    :missions {
+
+    }
+    :missions #Main_MunOrBust_04 > ContentBranches > OnSubmit {
+        +ActivateMissionAction {
+            TargetMissionID: "munar_impactor_crewed";
+            MissionOwner: "Agency";
+        }
+        +ActivateMissionAction {
+            TargetMissionID: "KSP2Mission_Secondary_Kerbin_Buoyancy";
+        }
+    }
+}
