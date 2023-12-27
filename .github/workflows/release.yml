@@ -18,19 +18,17 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v3
 
-      # Runs a single command using the runners shell
-      - name: Remove .git
-        run: rm -rf .git
+      - name: Set up folder structure
+        run: |
+          mkdir BepInEx
+          mkdir BepInEx/plugins
+          mkdir BepInEx/plugins/WheresMyCrewCapsule
+          cp swinfo.json BepInEx/plugins/WheresMyCrewCapsule/swinfo.json
+          mkdir BepInEx/plugins/WheresMyCrewCapsule/localizations
+          cp -r localizations BepInEx/plugins/WheresMyCrewCapsule/localizations
+          mkdir BepInEx/plugins/WheresMyCrewCapsule/patches
+          cp -r patches BepInEx/plugins/WheresMyCrewCapsule/patches
 
-      - name: Remove .github
-        run: rm -rf .github
-
-      - name: Remove README.md
-        run: rm -rf README.md
-
-      - name: Remove notes.txt
-        run: rm -rf notes.txt
-        
       - name: Extract current version
         id: get-version
         run: |
@@ -43,7 +41,7 @@ jobs:
       - name: Build release zip
         uses: montudor/action-zip@v1
         with:
-          args: zip -qq -r release.zip .
+          args: zip -qq -r release.zip BepInEx
 
       - name: Publish release
         uses: shogo82148/actions-upload-release-asset@v1.7.2
