@@ -24,6 +24,7 @@ jobs:
           mkdir BepInEx/plugins
           mkdir BepInEx/plugins/WheresMyCrewCapsule
           cp swinfo.json BepInEx/plugins/WheresMyCrewCapsule/swinfo.json
+          cp LICENSE BepInEx/plugins/WheresMyCrewCapsule/LICENSE
           mkdir BepInEx/plugins/WheresMyCrewCapsule/localizations
           cp -r localizations BepInEx/plugins/WheresMyCrewCapsule/localizations
           mkdir BepInEx/plugins/WheresMyCrewCapsule/patches
