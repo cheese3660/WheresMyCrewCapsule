@@ -5,7 +5,7 @@
     "name": "Where's my Crew Capsule?",
     "description": "Redoes the tech tree such that the probes come before crew capsules.",
     "source": "https://github.com/cheese3660/WheresMyCrewCapsule",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "ksp2_version": {
         "min": "0.2.0",
         "max": "*"
