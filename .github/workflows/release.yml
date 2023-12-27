@@ -25,10 +25,8 @@ jobs:
           mkdir BepInEx/plugins/WheresMyCrewCapsule
           cp swinfo.json BepInEx/plugins/WheresMyCrewCapsule/swinfo.json
           cp LICENSE BepInEx/plugins/WheresMyCrewCapsule/LICENSE
-          mkdir BepInEx/plugins/WheresMyCrewCapsule/localizations
-          cp -r localizations BepInEx/plugins/WheresMyCrewCapsule/localizations
-          mkdir BepInEx/plugins/WheresMyCrewCapsule/patches
-          cp -r patches BepInEx/plugins/WheresMyCrewCapsule/patches
+          cp -r localizations BepInEx/plugins/WheresMyCrewCapsule
+          cp -r patches BepInEx/plugins/WheresMyCrewCapsule
 
       - name: Extract current version
         id: get-version
