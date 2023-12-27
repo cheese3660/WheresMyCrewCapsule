@@ -1,0 +1,64 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  release:
+    types: ["published"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    permissions: write-all
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      # Runs a single command using the runners shell
+      - name: Remove .git
+        run: rm -rf .git
+
+      - name: Remove .github
+        run: rm -rf .github
+
+      - name: Remove README.md
+        run: rm -rf README.md
+
+      - name: Remove notes.txt
+        run: rm -rf notes.txt
+        
+      - name: Extract current version
+        id: get-version
+        run: |
+          version=$(jq -r '.version' swinfo.json)
+          echo "Version is $version"
+          echo "version=$version" >> $GITHUB_ENV
+          echo "artifact_name=WheresMyCrewCapsule-$version.zip" >> $GITHUB_ENV
+          echo "upload_url=$(wget -qO- https://api.github.com/repos/$GITHUB_REPOSITORY/releases | jq '.[0].upload_url' | tr -d \")" >> $GITHUB_ENV
+
+      - name: Build release zip
+      - uses: montudor/action-zip@v1
+        with:
+          args: zip -qq -r release.zip .
+
+      - name: Publish release
+        uses: shogo82148/actions-upload-release-asset@v1.7.2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ env.upload_url }}
+          asset_path: release.zip
+          asset_name: ${{ env.artifact_name }}
+          asset_content_type: application/zip
+      
+      
