@@ -1,4 +1,4 @@
 @use "builtin:dictionary";
 :parts #lab_2v_science_orbital > Module_ScienceExperiment > Data_ScienceExperiment {
-    Experiments[0]: $value:set("TimeToComplete",518400.0);
+    Experiments[0]: $value:set(TimeToComplete,518400.0);
 }

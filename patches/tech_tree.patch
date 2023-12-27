@@ -4,10 +4,9 @@
     @delete;
 }
 
-@new("wmcc_early_sounding_rockets")
+@new(wmcc_early_sounding_rockets)
 :science {
     Version: 4;
-    ID: "wmcc_early_sounding_rockets";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_early_sounding_rockets";
     IconID: "";
     CategoryID: "";
@@ -15,12 +14,12 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_early_sounding_rockets";
     RequiredSciencePoints: 0;
     UnlockedPartsIDs: [
-        "probe_0v_spherical_electricity",
-        "engine_0v_methalox_spider",
-        "engine_0v_methalox_ant",
-        "storage_0v_battery_electricity_radial",
-        "fueltank_0v_inline_methalox",
-        "fairing_0v_procedural"
+        probe_0v_spherical_electricity,
+        engine_0v_methalox_spider,
+        engine_0v_methalox_ant,
+        storage_0v_battery_electricity_radial,
+        fueltank_0v_inline_methalox,
+        fairing_0v_procedural
     ];
     RequiredTechNodeIDs: [];
     TechTreePosition: {
@@ -28,10 +27,9 @@
         y: 750
     };
 }
-@new("wmcc_larger_boosters")
+@new(wmcc_larger_boosters)
 :science {
     Version: 4;
-    ID: "wmcc_larger_boosters";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_larger_boosters";
     IconID: "";
     CategoryID: "";
@@ -39,21 +37,20 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_larger_boosters";
     RequiredSciencePoints: 15;
     UnlockedPartsIDs: [
-        "booster_1v_solid_flea",
-        "fairing_1v_procedural"
+        booster_1v_solid_flea,
+        fairing_1v_procedural
     ];
     RequiredTechNodeIDs: [
-        "wmcc_rapid_planned_disassembly"
+        wmcc_rapid_planned_disassembly
     ];
     TechTreePosition: {
         x: 360,
         y: 750
     };
 }
-@new("wmcc_basic_construction")
+@new(wmcc_basic_construction)
 :science {
     Version: 4;
-    ID: "wmcc_basic_construction";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_basic_construction";
     IconID: "";
     CategoryID: "";
@@ -61,23 +58,22 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_basic_construction";
     RequiredSciencePoints: 25;
     UnlockedPartsIDs: [
-        "strut_1v_extensible",
+        strut_1v_extensible,
         "adapter_1v_conical_0v-1v",
-        "decoupler_1v_inline",
-        "launchclamp_3v_ground"
+        decoupler_1v_inline,
+        launchclamp_3v_ground
     ];
     RequiredTechNodeIDs: [
-        "wmcc_larger_boosters"
+        wmcc_larger_boosters
     ];
     TechTreePosition: {
         x: 540,
         y: 640
     };
 }
-@new("wmcc_basic_aerodynamics")
+@new(wmcc_basic_aerodynamics)
 :science {
     Version: 4;
-    ID: "wmcc_basic_aerodynamics";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_basic_aerodynamics";
     IconID: "";
     CategoryID: "";
@@ -85,22 +81,21 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_basic_aerodynamics";
     RequiredSciencePoints: 10;
     UnlockedPartsIDs: [
-        "fin_0v_procedural",
-        "stabilizer_0v_reactionwheel",
-        "nosecone_0v"
+        fin_0v_procedural,
+        stabilizer_0v_reactionwheel,
+        nosecone_0v
     ];
     RequiredTechNodeIDs: [
-        "wmcc_rapid_planned_disassembly"
+        wmcc_rapid_planned_disassembly
     ];
     TechTreePosition: {
         x: 360,
         y: 530
     };
 }
-@new("wmcc_larger_aerodynamics")
+@new(wmcc_larger_aerodynamics)
 :science {
     Version: 4;
-    ID: "wmcc_larger_aerodynamics";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_larger_aerodynamics";
     IconID: "";
     CategoryID: "";
@@ -108,24 +103,23 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_larger_aerodynamics";
     RequiredSciencePoints: 25;
     UnlockedPartsIDs: [
-        "controlsurface_1v_procedural_light",
-        "stabilizer_1v_reactionwheel",
-        "stabilizer_1v_procedural_light",
-        "nosecone_1v_hemisphere"
+        controlsurface_1v_procedural_light,
+        stabilizer_1v_reactionwheel,
+        stabilizer_1v_procedural_light,
+        nosecone_1v_hemisphere
     ];
     RequiredTechNodeIDs: [
-        "wmcc_basic_aerodynamics",
-        "wmcc_larger_boosters"
+        wmcc_basic_aerodynamics,
+        wmcc_larger_boosters
     ];
     TechTreePosition: {
         x: 540,
         y: 530
     };
 }
-@new("wmcc_basic_survivability")
+@new(wmcc_basic_survivability)
 :science {
     Version: 4;
-    ID: "wmcc_basic_survivability";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_basic_survivability";
     IconID: "";
     CategoryID: "";
@@ -133,22 +127,21 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_basic_survivability";
     RequiredSciencePoints: 15;
     UnlockedPartsIDs: [
-        "parachute_0v_radial_drogue",
-        "parachute_0v",
-        "heatshield_0v"
+        parachute_0v_radial_drogue,
+        parachute_0v,
+        heatshield_0v
     ];
     RequiredTechNodeIDs: [
-        "wmcc_basic_aerodynamics"
+        wmcc_basic_aerodynamics
     ];
     TechTreePosition: {
         x: 540,
         y: 420
     };
 }
-@new("wmcc_early_jet_planes")
+@new(wmcc_early_jet_planes)
 :science {
     Version: 4;
-    ID: "wmcc_early_jet_planes";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_early_jet_planes";
     IconID: "";
     CategoryID: "";
@@ -156,29 +149,28 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_early_jet_planes";
     RequiredSciencePoints: 50;
     UnlockedPartsIDs: [
-        "cockpit_1v_m1_crew",
-        "cockpit_1v_m1_inline_crew",
-        "landinggear_0v_steerable",
-        "landinggear_1v_fixed",
-        "wing_1v_procedural_light",
-        "stabilizer_2v_procedural_heavy",
-        "engine_0v_methane_whittle",
-        "intake_0v_circular",
-        "fueltank_0v_m0_inline_methane"
+        cockpit_1v_m1_crew,
+        cockpit_1v_m1_inline_crew,
+        landinggear_0v_steerable,
+        landinggear_1v_fixed,
+        wing_1v_procedural_light,
+        stabilizer_2v_procedural_heavy,
+        engine_0v_methane_whittle,
+        intake_0v_circular,
+        fueltank_0v_m0_inline_methane
     ];
     RequiredTechNodeIDs: [
-        "wmcc_basic_survivability",
-        "wmcc_larger_aerodynamics"
+        wmcc_basic_survivability,
+        wmcc_larger_aerodynamics
     ];
     TechTreePosition: {
         x: 720,
         y: 530
     };
 }
-@new("wmcc_more_fuel_tanks")
+@new(wmcc_more_fuel_tanks)
 :science {
     Version: 4;
-    ID: "wmcc_more_fuel_tanks";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_more_fuel_tanks";
     IconID: "";
     CategoryID: "";
@@ -186,21 +178,20 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_more_fuel_tanks";
     RequiredSciencePoints: 10;
     UnlockedPartsIDs: [
-        "fueltank_0v_inline_methalox_doughnut",
-        "fueltank_0v_radial_methalox_spherical"
+        fueltank_0v_inline_methalox_doughnut,
+        fueltank_0v_radial_methalox_spherical
     ];
     RequiredTechNodeIDs: [
-        "wmcc_rapid_planned_disassembly"
+        wmcc_rapid_planned_disassembly
     ];
     TechTreePosition: {
         x: 360,
         y: 310
     };
 }
-@new("wmcc_early_electronics")
+@new(wmcc_early_electronics)
 :science {
     Version: 4;
-    ID: "wmcc_early_electronics";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_early_electronics";
     IconID: "";
     CategoryID: "";
@@ -208,26 +199,25 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_early_electronics";
     RequiredSciencePoints: 10;
     UnlockedPartsIDs: [
-        "solararray_0v_flat",
-        "storage_0v_battery_electricity",
-        "light_0v_bulb",
-        "light_0v_broad",
-        "light_0v_dome",
-        "antenna_0v_16",
-        "antenna_0v_16s"
+        solararray_0v_flat,
+        storage_0v_battery_electricity,
+        light_0v_bulb,
+        light_0v_broad,
+        light_0v_dome,
+        antenna_0v_16,
+        antenna_0v_16s
     ];
     RequiredTechNodeIDs: [
-        "wmcc_rapid_planned_disassembly"
+        wmcc_rapid_planned_disassembly
     ];
     TechTreePosition: {
         x: 360,
         y: 200
     };
 }
-@new("wmcc_larger_radial_tanks")
+@new(wmcc_larger_radial_tanks)
 :science {
     Version: 4;
-    ID: "wmcc_larger_radial_tanks";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_larger_radial_tanks";
     IconID: "";
     CategoryID: "";
@@ -235,20 +225,19 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_larger_radial_tanks";
     RequiredSciencePoints: 15;
     UnlockedPartsIDs: [
-        "fueltank_1v_radial_methalox_capsular"
+        fueltank_1v_radial_methalox_capsular
     ];
     RequiredTechNodeIDs: [
-        "wmcc_more_fuel_tanks"
+        wmcc_more_fuel_tanks
     ];
     TechTreePosition: {
         x: 540,
         y: 310
     };
 }
-@new("wmcc_monopropellant_engines")
+@new(wmcc_monopropellant_engines)
 :science {
     Version: 4;
-    ID: "wmcc_monopropellant_engines";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_monopropellant_engines";
     IconID: "";
     CategoryID: "";
@@ -256,23 +245,22 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_monopropellant_engines";
     RequiredSciencePoints: 120;
     UnlockedPartsIDs: [
-        "engine_0v_monoprop_puff",
-        "fueltank_0v_radial_monoprop_1x1",
-        "fueltank_0v_radial_monoprop_sphere",
-        "fueltank_1v_inline_monoprop"
+        engine_0v_monoprop_puff,
+        fueltank_0v_radial_monoprop_1x1,
+        fueltank_0v_radial_monoprop_sphere,
+        fueltank_1v_inline_monoprop
     ];
     RequiredTechNodeIDs: [
-        "wmcc_methalox_rcs"
+        wmcc_methalox_rcs
     ];
     TechTreePosition: {
         x: 1080,
         y: 310
     };
 }
-@new("wmcc_advanced_survivability")
+@new(wmcc_advanced_survivability)
 :science {
     Version: 4;
-    ID: "wmcc_advanced_survivability";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_advanced_survivability";
     IconID: "";
     CategoryID: "";
@@ -280,22 +268,21 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_advanced_survivability";
     RequiredSciencePoints: 35;
     UnlockedPartsIDs: [
-        "heatshield_1v",
-        "parachute_0v_radial_drogue",
-        "parachute_1v_radial"
+        heatshield_1v,
+        parachute_0v_radial_drogue,
+        parachute_1v_radial
     ];
     RequiredTechNodeIDs: [
-        "wmcc_basic_survivability"
+        wmcc_basic_survivability
     ];
     TechTreePosition: {
         x: 720,
         y: 420
     };
 }
-@new("wmcc_better_probes")
+@new(wmcc_better_probes)
 :science {
     Version: 4;
-    ID: "wmcc_better_probes";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_better_probes";
     IconID: "";
     CategoryID: "";
@@ -303,21 +290,20 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_better_probes";
     RequiredSciencePoints: 50;
     UnlockedPartsIDs: [
-        "probe_0v_hexagonal_electricity",
-        "probe_0v_octagonal_electricity_1x3"
+        probe_0v_hexagonal_electricity,
+        probe_0v_octagonal_electricity_1x3
     ];
     RequiredTechNodeIDs: [
-        "wmcc_early_electronics"
+        wmcc_early_electronics
     ];
     TechTreePosition: {
         x: 720,
         y: 90
     };
 }
-@new("wmcc_rapid_planned_disassembly")
+@new(wmcc_rapid_planned_disassembly)
 :science {
     Version: 4;
-    ID: "wmcc_rapid_planned_disassembly";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_rapid_planned_disassembly";
     IconID: "";
     CategoryID: "";
@@ -325,21 +311,20 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_rapid_planned_disassembly";
     RequiredSciencePoints: 10;
     UnlockedPartsIDs: [
-        "decoupler_0v_inline",
-        "decoupler_1v_radial"
+        decoupler_0v_inline,
+        decoupler_1v_radial
     ];
     RequiredTechNodeIDs: [
-        "wmcc_early_sounding_rockets"
+        wmcc_early_sounding_rockets
     ];
     TechTreePosition: {
         x: 180,
         y: 750
     };
 }
-@new("wmcc_early_science")
+@new(wmcc_early_science)
 :science {
     Version: 4;
-    ID: "wmcc_early_science";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_early_science";
     IconID: "";
     CategoryID: "";
@@ -347,20 +332,19 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_early_science";
     RequiredSciencePoints: 15;
     UnlockedPartsIDs: [
-        "collector_1v_science_general"
+        collector_1v_science_general
     ];
     RequiredTechNodeIDs: [
-        "wmcc_early_electronics"
+        wmcc_early_electronics
     ];
     TechTreePosition: {
         x: 540,
         y: 200
     };
 }
-@new("wmcc_better_electronics")
+@new(wmcc_better_electronics)
 :science {
     Version: 4;
-    ID: "wmcc_better_electronics";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_better_electronics";
     IconID: "";
     CategoryID: "";
@@ -368,20 +352,19 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_better_electronics";
     RequiredSciencePoints: 35;
     UnlockedPartsIDs: [
-        "solararray_1v_flat"
+        solararray_1v_flat
     ];
     RequiredTechNodeIDs: [
-        "wmcc_early_science"
+        wmcc_early_science
     ];
     TechTreePosition: {
         x: 720,
         y: 200
     };
 }
-@new("wmcc_miniaturized_science")
+@new(wmcc_miniaturized_science)
 :science {
     Version: 4;
-    ID: "wmcc_miniaturized_science";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_miniaturized_science";
     IconID: "";
     CategoryID: "";
@@ -389,20 +372,19 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_miniaturized_science";
     RequiredSciencePoints: 50;
     UnlockedPartsIDs: [
-        "collector_0v_radial_science_general"
+        collector_0v_radial_science_general
     ];
     RequiredTechNodeIDs: [
-        "wmcc_better_electronics"
+        wmcc_better_electronics
     ];
     TechTreePosition: {
         x: 900,
         y: 200
     };
 }
-@new("wmcc_longer_range_communications")
+@new(wmcc_longer_range_communications)
 :science {
     Version: 4;
-    ID: "wmcc_longer_range_communications";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_longer_range_communications";
     IconID: "";
     CategoryID: "";
@@ -411,20 +393,19 @@
     RequiredSciencePoints: 120;
     UnlockedPartsIDs: [
         "antenna_0v_dish_ra-2",
-        "antenna_1v_dish_hg5"
+        antenna_1v_dish_hg5
     ];
     RequiredTechNodeIDs: [
-        "wmcc_better_probes"
+        wmcc_better_probes
     ];
     TechTreePosition: {
         x: 1080,
         y: 90
     };
 }
-@new("wmcc_crewed_rocketry")
+@new(wmcc_crewed_rocketry)
 :science {
     Version: 4;
-    ID: "wmcc_crewed_rocketry";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_crewed_rocketry";
     IconID: "";
     CategoryID: "";
@@ -432,20 +413,19 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_crewed_rocketry";
     RequiredSciencePoints: 230;
     UnlockedPartsIDs: [
-        "pod_1v_conical_crew"
+        pod_1v_conical_crew
     ];
     RequiredTechNodeIDs: [
-        "wmcc_munar_range_rocketry"
+        wmcc_munar_range_rocketry
     ];
     TechTreePosition: {
         x: 1600,
         y: 750
     };
 }
-@new("wmcc_crewed_landings")
+@new(wmcc_crewed_landings)
 :science {
     Version: 4;
-    ID: "wmcc_crewed_landings";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_crewed_landings";
     IconID: "";
     CategoryID: "";
@@ -453,22 +433,21 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_crewed_landings";
     RequiredSciencePoints: 300;
     UnlockedPartsIDs: [
-        "landingleg_1v",
-        "pod_1v_lander_crew",
-        "ladder_0v_fixed_pegasus"
+        landingleg_1v,
+        pod_1v_lander_crew,
+        ladder_0v_fixed_pegasus
     ];
     RequiredTechNodeIDs: [
-        "wmcc_crewed_rocketry"
+        wmcc_crewed_rocketry
     ];
     TechTreePosition: {
         x: 1780,
         y: 640
     };
 }
-@new("wmcc_small_payload_bays")
+@new(wmcc_small_payload_bays)
 :science {
     Version: 4;
-    ID: "wmcc_small_payload_bays";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_small_payload_bays";
     IconID: "";
     CategoryID: "";
@@ -476,21 +455,20 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_small_payload_bays";
     RequiredSciencePoints: 50;
     UnlockedPartsIDs: [
-        "cargobay_1v_1x1",
-        "cargobay_1v_1x8"
+        cargobay_1v_1x1,
+        cargobay_1v_1x8
     ];
     RequiredTechNodeIDs: [
-        "wmcc_intermediate_construction"
+        wmcc_intermediate_construction
     ];
     TechTreePosition: {
         x: 900,
         y: 530
     };
 }
-@new("wmcc_larger_trusses_and_junctions")
+@new(wmcc_larger_trusses_and_junctions)
 :science {
     Version: 4;
-    ID: "wmcc_larger_trusses_and_junctions";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_larger_trusses_and_junctions";
     IconID: "";
     CategoryID: "";
@@ -498,29 +476,28 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_larger_trusses_and_junctions";
     RequiredSciencePoints: 80;
     UnlockedPartsIDs: [
-        "truss_1v_square_1x1",
-        "truss_1v_square_1x4",
-        "truss_1v_circular_1x1",
-        "truss_1v_circular_1x4",
-        "truss_1v_triangular_1x1",
-        "truss_1v_triangular_1x4",
-        "junction_1v_circular",
-        "junction_1v_square",
-        "adapter_1v_cir-sqr",
-        "adapter_1v_cir-tri"
+        truss_1v_square_1x1,
+        truss_1v_square_1x4,
+        truss_1v_circular_1x1,
+        truss_1v_circular_1x4,
+        truss_1v_triangular_1x1,
+        truss_1v_triangular_1x4,
+        junction_1v_circular,
+        junction_1v_square,
+        adapter_1v_cir-sqr,
+        adapter_1v_cir-tri
     ];
     RequiredTechNodeIDs: [
-        "wmcc_trusses"
+        wmcc_trusses
     ];
     TechTreePosition: {
         x: 1080,
         y: 640
     };
 }
-@new("wmcc_better_planned_disassembly")
+@new(wmcc_better_planned_disassembly)
 :science {
     Version: 4;
-    ID: "wmcc_better_planned_disassembly";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_better_planned_disassembly";
     IconID: "";
     CategoryID: "";
@@ -528,22 +505,21 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_better_planned_disassembly";
     RequiredSciencePoints: 80;
     UnlockedPartsIDs: [
-        "decoupler_2v_radial",
-        "separator_0v_inline",
-        "booster_0v_solid_sepratron"
+        decoupler_2v_radial,
+        separator_0v_inline,
+        booster_0v_solid_sepratron
     ];
     RequiredTechNodeIDs: [
-        "wmcc_small_payload_bays"
+        wmcc_small_payload_bays
     ];
     TechTreePosition: {
         x: 1080,
         y: 530
     };
 }
-@new("wmcc_larger_orbital_rockets")
+@new(wmcc_larger_orbital_rockets)
 :science {
     Version: 4;
-    ID: "wmcc_larger_orbital_rockets";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_larger_orbital_rockets";
     IconID: "";
     CategoryID: "";
@@ -551,28 +527,27 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_larger_orbital_rockets";
     RequiredSciencePoints: 300;
     UnlockedPartsIDs: [
-        "decoupler_2v_inline",
-        "fueltank_2v_inline_methalox_1x4",
-        "engine_2v_methalox_poodle",
-        "engine_2v_methalox_skipper",
-        "fueltank_2v_inline_methalox_1x1",
-        "fueltank_2v_inline_methalox_1x2",
+        decoupler_2v_inline,
+        fueltank_2v_inline_methalox_1x4,
+        engine_2v_methalox_poodle,
+        engine_2v_methalox_skipper,
+        fueltank_2v_inline_methalox_1x1,
+        fueltank_2v_inline_methalox_1x2,
         "adapter_2v_conical_1v-2v",
-        "fairing_2v_procedural",
-        "booster_1v_solid_kickback"
+        fairing_2v_procedural,
+        booster_1v_solid_kickback
     ];
     RequiredTechNodeIDs: [
-        "wmcc_crewed_rocketry"
+        wmcc_crewed_rocketry
     ];
     TechTreePosition: {
         x: 1780,
         y: 750
     };
 }
-@new("wmcc_better_landing_engines")
+@new(wmcc_better_landing_engines)
 :science {
     Version: 4;
-    ID: "wmcc_better_landing_engines";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_better_landing_engines";
     IconID: "";
     CategoryID: "";
@@ -580,22 +555,21 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_better_landing_engines";
     RequiredSciencePoints: 400;
     UnlockedPartsIDs: [
-        "fueltank_1v_radial_monoprop_1x3",
-        "engine_1v_methalox_thud"
+        fueltank_1v_radial_monoprop_1x3,
+        engine_1v_methalox_thud
     ];
     RequiredTechNodeIDs: [
-        "wmcc_fuel_lines",
-        "wmcc_crewed_landings"
+        wmcc_fuel_lines,
+        wmcc_crewed_landings
     ];
     TechTreePosition: {
         x: 1960,
         y: 640
     };
 }
-@new("wmcc_fuel_lines")
+@new(wmcc_fuel_lines)
 :science {
     Version: 4;
-    ID: "wmcc_fuel_lines";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_fuel_lines";
     IconID: "";
     CategoryID: "";
@@ -603,20 +577,19 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_fuel_lines";
     RequiredSciencePoints: 300;
     UnlockedPartsIDs: [
-        "fuelline_0v_external"
+        fuelline_0v_external
     ];
     RequiredTechNodeIDs: [
-        "wmcc_crewed_rocketry"
+        wmcc_crewed_rocketry
     ];
     TechTreePosition: {
         x: 1780,
         y: 530
     };
 }
-@new("wmcc_larger_probes")
+@new(wmcc_larger_probes)
 :science {
     Version: 4;
-    ID: "wmcc_larger_probes";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_larger_probes";
     IconID: "";
     CategoryID: "";
@@ -624,22 +597,21 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_larger_probes";
     RequiredSciencePoints: 300;
     UnlockedPartsIDs: [
-        "probe_0v_octagonal_electricity_1x1",
-        "probe_1v_hexagonal_electricity",
-        "probe_0v_rectangular_electricity"
+        probe_0v_octagonal_electricity_1x1,
+        probe_1v_hexagonal_electricity,
+        probe_0v_rectangular_electricity
     ];
     RequiredTechNodeIDs: [
-        "wmcc_advanced_electronics"
+        wmcc_advanced_electronics
     ];
     TechTreePosition: {
         x: 1960,
         y: 420
     };
 }
-@new("wmcc_even_larger_boosters")
+@new(wmcc_even_larger_boosters)
 :science {
     Version: 4;
-    ID: "wmcc_even_larger_boosters";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_even_larger_boosters";
     IconID: "";
     CategoryID: "";
@@ -647,22 +619,21 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_even_larger_boosters";
     RequiredSciencePoints: 400;
     UnlockedPartsIDs: [
-        "engine_2v_methalox_mainsail",
-        "fueltank_2v_inline_methalox_1x8",
-        "fueltank_2v_inline_monoprop"
+        engine_2v_methalox_mainsail,
+        fueltank_2v_inline_methalox_1x8,
+        fueltank_2v_inline_monoprop
     ];
     RequiredTechNodeIDs: [
-        "wmcc_larger_orbital_rockets"
+        wmcc_larger_orbital_rockets
     ];
     TechTreePosition: {
         x: 1960,
         y: 750
     };
 }
-@new("wmcc_even_longer_range_communications")
+@new(wmcc_even_longer_range_communications)
 :science {
     Version: 4;
-    ID: "wmcc_even_longer_range_communications";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_even_longer_range_communications";
     IconID: "";
     CategoryID: "";
@@ -670,22 +641,21 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_even_longer_range_communications";
     RequiredSciencePoints: 300;
     UnlockedPartsIDs: [
-        "antenna_1v_dish_hg55",
+        antenna_1v_dish_hg55,
         "antenna_0v_dish_ra-15",
-        "antenna_1v_parabolic_dts-m1"
+        antenna_1v_parabolic_dts-m1
     ];
     RequiredTechNodeIDs: [
-        "wmcc_advanced_electronics"
+        wmcc_advanced_electronics
     ];
     TechTreePosition: {
         x: 1960,
         y: 310
     };
 }
-@new("wmcc_advanced_electronics")
+@new(wmcc_advanced_electronics)
 :science {
     Version: 4;
-    ID: "wmcc_advanced_electronics";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_advanced_electronics";
     IconID: "";
     CategoryID: "";
@@ -693,23 +663,22 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_advanced_electronics";
     RequiredSciencePoints: 230;
     UnlockedPartsIDs: [
-        "solararray_1v_1x6",
-        "solararray_1v_3x2",
-        "solararray_1v_circular",
-        "stabilizer_2v_reactionwheel"
+        solararray_1v_1x6,
+        solararray_1v_3x2,
+        solararray_1v_circular,
+        stabilizer_2v_reactionwheel
     ];
     RequiredTechNodeIDs: [
-        "wmcc_crewed_rocketry"
+        wmcc_crewed_rocketry
     ];
     TechTreePosition: {
         x: 1780,
         y: 420
     };
 }
-@new("wmcc_atmospheric_science")
+@new(wmcc_atmospheric_science)
 :science {
     Version: 4;
-    ID: "wmcc_atmospheric_science";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_atmospheric_science";
     IconID: "";
     CategoryID: "";
@@ -717,20 +686,19 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_atmospheric_science";
     RequiredSciencePoints: 300;
     UnlockedPartsIDs: [
-        "collector_0v_science_atmospheric"
+        collector_0v_science_atmospheric
     ];
     RequiredTechNodeIDs: [
-        "wmcc_advanced_electronics"
+        wmcc_advanced_electronics
     ];
     TechTreePosition: {
         x: 1960,
         y: 530
     };
 }
-@new("wmcc_intermediate_construction")
+@new(wmcc_intermediate_construction)
 :science {
     Version: 4;
-    ID: "wmcc_intermediate_construction";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_intermediate_construction";
     IconID: "";
     CategoryID: "";
@@ -738,28 +706,27 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_intermediate_construction";
     RequiredSciencePoints: 35;
     UnlockedPartsIDs: [
-        "coupler_1v_inline_2point",
-        "enginemount_1v_procedural",
-        "ibeam_1v_1x5",
-        "panel_1v_square",
-        "panel_1v_triangle_equilateral",
-        "panel_1v_triangle_right",
-        "tube_0v_procedural",
-        "tube_1v_procedural",
-        "fuselage_1v_m1_structural"
+        coupler_1v_inline_2point,
+        enginemount_1v_procedural,
+        ibeam_1v_1x5,
+        panel_1v_square,
+        panel_1v_triangle_equilateral,
+        panel_1v_triangle_right,
+        tube_0v_procedural,
+        tube_1v_procedural,
+        fuselage_1v_m1_structural
     ];
     RequiredTechNodeIDs: [
-        "wmcc_basic_construction"
+        wmcc_basic_construction
     ];
     TechTreePosition: {
         x: 720,
         y: 640
     };
 }
-@new("wmcc_advanced_construction")
+@new(wmcc_advanced_construction)
 :science {
     Version: 4;
-    ID: "wmcc_advanced_construction";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_advanced_construction";
     IconID: "";
     CategoryID: "";
@@ -769,28 +736,27 @@
     UnlockedPartsIDs: [
         "adapter_2v_conical_methalox_1v-2v",
         "adapter_2v_rightcone_methalox_1v-2v",
-        "coupler_1v_inline_3point",
-        "coupler_1v_inline_4point",
-        "ibeam_2v_1x10",
-        "ibeam_2v_2x3",
-        "panel_2v_square",
-        "panel_2v_triangle_equilateral",
-        "panel_2v_triangle_right",
-        "panel_2v_square_crossbrace",
-        "attachpoint_1v_radial"
+        coupler_1v_inline_3point,
+        coupler_1v_inline_4point,
+        ibeam_2v_1x10,
+        ibeam_2v_2x3,
+        panel_2v_square,
+        panel_2v_triangle_equilateral,
+        panel_2v_triangle_right,
+        panel_2v_square_crossbrace,
+        attachpoint_1v_radial
     ];
     RequiredTechNodeIDs: [
-        "wmcc_crewed_rocketry"
+        wmcc_crewed_rocketry
     ];
     TechTreePosition: {
         x: 1780,
         y: 200
     };
 }
-@new("wmcc_ionic_power")
+@new(wmcc_ionic_power)
 :science {
     Version: 4;
-    ID: "wmcc_ionic_power";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_ionic_power";
     IconID: "";
     CategoryID: "";
@@ -798,24 +764,23 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_ionic_power";
     RequiredSciencePoints: 650;
     UnlockedPartsIDs: [
-        "engine_0v_xenon_dawn",
-        "fueltank_0v_inline_xenon",
-        "fueltank_0v_radial_xenon",
-        "fueltank_1v_inline_xenon_1x1",
-        "fueltank_1v_inline_xenon_1x4"
+        engine_0v_xenon_dawn,
+        fueltank_0v_inline_xenon,
+        fueltank_0v_radial_xenon,
+        fueltank_1v_inline_xenon_1x1,
+        fueltank_1v_inline_xenon_1x4
     ];
     RequiredTechNodeIDs: [
-        "wmcc_even_larger_boosters"
+        wmcc_even_larger_boosters
     ];
     TechTreePosition: {
         x: 2320,
         y: 750
     };
 }
-@new("wmcc_larger_srbs")
+@new(wmcc_larger_srbs)
 :science {
     Version: 4;
-    ID: "wmcc_larger_srbs";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_larger_srbs";
     IconID: "";
     CategoryID: "";
@@ -823,21 +788,20 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_larger_srbs";
     RequiredSciencePoints: 80;
     UnlockedPartsIDs: [
-        "booster_1v_solid_hammer",
-        "booster_1v_solid_thumper"
+        booster_1v_solid_hammer,
+        booster_1v_solid_thumper
     ];
     RequiredTechNodeIDs: [
-        "wmcc_larger_methalox_engines"
+        wmcc_larger_methalox_engines
     ];
     TechTreePosition: {
         x: 900,
         y: 750
     };
 }
-@new("wmcc_efficient_launch_systems")
+@new(wmcc_efficient_launch_systems)
 :science {
     Version: 4;
-    ID: "wmcc_efficient_launch_systems";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_efficient_launch_systems";
     IconID: "";
     CategoryID: "";
@@ -845,20 +809,19 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_efficient_launch_systems";
     RequiredSciencePoints: 1100;
     UnlockedPartsIDs: [
-        "engine_1v_methalox_vector"
+        engine_1v_methalox_vector
     ];
     RequiredTechNodeIDs: [
-        "wmcc_larger_srbs"
+        wmcc_larger_srbs
     ];
     TechTreePosition: {
         x: 2680,
         y: 750
     };
 }
-@new("wmcc_advanced_adapters_and_connectors")
+@new(wmcc_advanced_adapters_and_connectors)
 :science {
     Version: 4;
-    ID: "wmcc_advanced_adapters_and_connectors";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_advanced_adapters_and_connectors";
     IconID: "";
     CategoryID: "";
@@ -868,29 +831,28 @@
     UnlockedPartsIDs: [
         "adapter_1v_flat_0v-1v",
         "adapter_1v_bullet_methalox_0v-1v",
-        "connector_1v_6point",
-        "connector_0v_6point",
-        "panel_0v_square",
-        "panel_0v_triangle_equilateral",
-        "panel_0v_triangle_right",
-        "tube_2v_procedural",
+        connector_1v_6point,
+        connector_0v_6point,
+        panel_0v_square,
+        panel_0v_triangle_equilateral,
+        panel_0v_triangle_right,
+        tube_2v_procedural,
         "adapter_2v_2point_1v-2v",
         "adapter_2v_3point_1v-2v",
         "adapter_2v_4point_1v-2v",
         "adapter_2v_flat_1v-2v"
     ];
     RequiredTechNodeIDs: [
-        "wmcc_advanced_construction"
+        wmcc_advanced_construction
     ];
     TechTreePosition: {
         x: 1960,
         y: 200
     };
 }
-@new("wmcc_early_docking_ports")
+@new(wmcc_early_docking_ports)
 :science {
     Version: 4;
-    ID: "wmcc_early_docking_ports";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_early_docking_ports";
     IconID: "";
     CategoryID: "";
@@ -898,20 +860,19 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_early_docking_ports";
     RequiredSciencePoints: 400;
     UnlockedPartsIDs: [
-        "dockingport_0v_inline"
+        dockingport_0v_inline
     ];
     RequiredTechNodeIDs: [
-        "wmcc_enhanced_disassembly"
+        wmcc_enhanced_disassembly
     ];
     TechTreePosition: {
         x: 2140,
         y: 90
     };
 }
-@new("wmcc_enhanced_disassembly")
+@new(wmcc_enhanced_disassembly)
 :science {
     Version: 4;
-    ID: "wmcc_enhanced_disassembly";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_enhanced_disassembly";
     IconID: "";
     CategoryID: "";
@@ -920,21 +881,20 @@
     RequiredSciencePoints: 300;
     UnlockedPartsIDs: [
         "separator_1v_inline\ndecoupler_1v_aerodynamic",
-        "decoupler_2v_aerodynamic",
-        "separator_2v_inline"
+        decoupler_2v_aerodynamic,
+        separator_2v_inline
     ];
     RequiredTechNodeIDs: [
-        "wmcc_advanced_construction"
+        wmcc_advanced_construction
     ];
     TechTreePosition: {
         x: 1960,
         y: 90
     };
 }
-@new("wmcc_docking_ports")
+@new(wmcc_docking_ports)
 :science {
     Version: 4;
-    ID: "wmcc_docking_ports";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_docking_ports";
     IconID: "";
     CategoryID: "";
@@ -942,20 +902,19 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_docking_ports";
     RequiredSciencePoints: 500;
     UnlockedPartsIDs: [
-        "dockingport_1v_inline"
+        dockingport_1v_inline
     ];
     RequiredTechNodeIDs: [
-        "wmcc_early_docking_ports"
+        wmcc_early_docking_ports
     ];
     TechTreePosition: {
         x: 2320,
         y: 90
     };
 }
-@new("wmcc_advanced_aerodynamics")
+@new(wmcc_advanced_aerodynamics)
 :science {
     Version: 4;
-    ID: "wmcc_advanced_aerodynamics";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_advanced_aerodynamics";
     IconID: "";
     CategoryID: "";
@@ -963,27 +922,26 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_advanced_aerodynamics";
     RequiredSciencePoints: 230;
     UnlockedPartsIDs: [
-        "nosecone_1v_advanced_conical",
-        "nosecone_1v_advanced_rightcone",
-        "stabilizer_0v_flybywire_aircraft",
-        "nosecone_0v",
-        "stabilizer_0v_reactionwheel",
-        "gridfin_1v_radial",
-        "controlsurface_2v_procedural_heavy",
-        "landinggear_1v"
+        nosecone_1v_advanced_conical,
+        nosecone_1v_advanced_rightcone,
+        stabilizer_0v_flybywire_aircraft,
+        nosecone_0v,
+        stabilizer_0v_reactionwheel,
+        gridfin_1v_radial,
+        controlsurface_2v_procedural_heavy,
+        landinggear_1v
     ];
     RequiredTechNodeIDs: [
-        "wmcc_crewed_rocketry"
+        wmcc_crewed_rocketry
     ];
     TechTreePosition: {
         x: 1780,
         y: -20
     };
 }
-@new("wmcc_larger_jets")
+@new(wmcc_larger_jets)
 :science {
     Version: 4;
-    ID: "wmcc_larger_jets";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_larger_jets";
     IconID: "";
     CategoryID: "";
@@ -991,22 +949,21 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_larger_jets";
     RequiredSciencePoints: 300;
     UnlockedPartsIDs: [
-        "fueltank_1v_m1_inline_methane",
-        "engine_1v_turbofan_methane_wheesley",
-        "intake_1v_circular"
+        fueltank_1v_m1_inline_methane,
+        engine_1v_turbofan_methane_wheesley,
+        intake_1v_circular
     ];
     RequiredTechNodeIDs: [
-        "wmcc_advanced_aerodynamics"
+        wmcc_advanced_aerodynamics
     ];
     TechTreePosition: {
         x: 1960,
         y: -20
     };
 }
-@new("wmcc_mark_two_jet_planes")
+@new(wmcc_mark_two_jet_planes)
 :science {
     Version: 4;
-    ID: "wmcc_mark_two_jet_planes";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_mark_two_jet_planes";
     IconID: "";
     CategoryID: "";
@@ -1014,28 +971,27 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_mark_two_jet_planes";
     RequiredSciencePoints: 400;
     UnlockedPartsIDs: [
-        "cockpit_2v_m2_crew",
-        "cockpit_2v_m2_inline_crew",
-        "engine_1v_turbofan_methane_panther",
-        "landinggear_2v",
-        "airbrake_1v",
-        "intake_1v_m1_nacelle_methane",
-        "fueltank_2v_m2_inline_methane_1x1",
-        "fueltank_2v_m2_inline_methane_1x2",
-        "wing_2v_procedural_heavy"
+        cockpit_2v_m2_crew,
+        cockpit_2v_m2_inline_crew,
+        engine_1v_turbofan_methane_panther,
+        landinggear_2v,
+        airbrake_1v,
+        intake_1v_m1_nacelle_methane,
+        fueltank_2v_m2_inline_methane_1x1,
+        fueltank_2v_m2_inline_methane_1x2,
+        wing_2v_procedural_heavy
     ];
     RequiredTechNodeIDs: [
-        "wmcc_larger_jets"
+        wmcc_larger_jets
     ];
     TechTreePosition: {
         x: 2140,
         y: -20
     };
 }
-@new("wmcc_high_altitude_aviation")
+@new(wmcc_high_altitude_aviation)
 :science {
     Version: 4;
-    ID: "wmcc_high_altitude_aviation";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_high_altitude_aviation";
     IconID: "";
     CategoryID: "";
@@ -1043,26 +999,25 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_high_altitude_aviation";
     RequiredSciencePoints: 500;
     UnlockedPartsIDs: [
-        "fueltank_2v_m2_inline_methalox_1x1",
-        "fueltank_2v_m2_inline_methalox_1x2",
-        "fueltank_2v_m2_inline_monoprop",
-        "intake_1v_m1_adjustable",
-        "intake_1v_ramp_radial_adjustable",
-        "intake_1v_radial",
-        "nosecone_2v_mk2"
+        fueltank_2v_m2_inline_methalox_1x1,
+        fueltank_2v_m2_inline_methalox_1x2,
+        fueltank_2v_m2_inline_monoprop,
+        intake_1v_m1_adjustable,
+        intake_1v_ramp_radial_adjustable,
+        intake_1v_radial,
+        nosecone_2v_mk2
     ];
     RequiredTechNodeIDs: [
-        "wmcc_mark_two_jet_planes"
+        wmcc_mark_two_jet_planes
     ];
     TechTreePosition: {
         x: 2320,
         y: -20
     };
 }
-@new("wmcc_passengers_and_cargo")
+@new(wmcc_passengers_and_cargo)
 :science {
     Version: 4;
-    ID: "wmcc_passengers_and_cargo";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_passengers_and_cargo";
     IconID: "";
     CategoryID: "";
@@ -1070,28 +1025,27 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_passengers_and_cargo";
     RequiredSciencePoints: 650;
     UnlockedPartsIDs: [
-        "adapter_2v_m2_1x1_methalox_1v-m2",
-        "adapter_2v_m2_1x2_methalox_1v-m2",
-        "adapter_2v_m2_methalox_2v-m2",
-        "adapter_3v_m3_methalox_m2-m3",
-        "adapter_2v_m2_2point_methalox_1v-m2",
-        "cabin_1v_m1_crew",
-        "cabin_2v_m2_crew",
-        "cargobay_2v_m2_1x1",
-        "cargobay_2v_m2_1x2"
+        adapter_2v_m2_1x1_methalox_1v-m2,
+        adapter_2v_m2_1x2_methalox_1v-m2,
+        adapter_2v_m2_methalox_2v-m2,
+        adapter_3v_m3_methalox_m2-m3,
+        adapter_2v_m2_2point_methalox_1v-m2,
+        cabin_1v_m1_crew,
+        cabin_2v_m2_crew,
+        cargobay_2v_m2_1x1,
+        cargobay_2v_m2_1x2
     ];
     RequiredTechNodeIDs: [
-        "wmcc_high_altitude_aviation"
+        wmcc_high_altitude_aviation
     ];
     TechTreePosition: {
         x: 2500,
         y: -20
     };
 }
-@new("wmcc_larger_payloads")
+@new(wmcc_larger_payloads)
 :science {
     Version: 4;
-    ID: "wmcc_larger_payloads";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_larger_payloads";
     IconID: "";
     CategoryID: "";
@@ -1099,25 +1053,24 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_larger_payloads";
     RequiredSciencePoints: 400;
     UnlockedPartsIDs: [
-        "truss_2v_saddle_1x1",
-        "truss_2v_saddle_1x4",
-        "cargobay_2v_1x1",
-        "cargobay_2v_1x8",
-        "cargobay_2v_nose",
-        "enginemount_2v_procedural"
+        truss_2v_saddle_1x1,
+        truss_2v_saddle_1x4,
+        cargobay_2v_1x1,
+        cargobay_2v_1x8,
+        cargobay_2v_nose,
+        enginemount_2v_procedural
     ];
     RequiredTechNodeIDs: [
-        "wmcc_advanced_adapters_and_connectors"
+        wmcc_advanced_adapters_and_connectors
     ];
     TechTreePosition: {
         x: 2140,
         y: 200
     };
 }
-@new("wmcc_even_larger_trusses")
+@new(wmcc_even_larger_trusses)
 :science {
     Version: 4;
-    ID: "wmcc_even_larger_trusses";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_even_larger_trusses";
     IconID: "";
     CategoryID: "";
@@ -1125,25 +1078,24 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_even_larger_trusses";
     RequiredSciencePoints: 500;
     UnlockedPartsIDs: [
-        "truss_2v_circular_1x1",
-        "truss_2v_circular_1x4",
-        "truss_2v_square_1x1",
-        "truss_2v_square_1x4",
-        "truss_2v_triangular_1x1",
-        "truss_2v_triangular_1x4"
+        truss_2v_circular_1x1,
+        truss_2v_circular_1x4,
+        truss_2v_square_1x1,
+        truss_2v_square_1x4,
+        truss_2v_triangular_1x1,
+        truss_2v_triangular_1x4
     ];
     RequiredTechNodeIDs: [
-        "wmcc_larger_payloads"
+        wmcc_larger_payloads
     ];
     TechTreePosition: {
         x: 2320,
         y: 200
     };
 }
-@new("wmcc_even_larger_adapters")
+@new(wmcc_even_larger_adapters)
 :science {
     Version: 4;
-    ID: "wmcc_even_larger_adapters";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_even_larger_adapters";
     IconID: "";
     CategoryID: "";
@@ -1151,26 +1103,25 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_even_larger_adapters";
     RequiredSciencePoints: 650;
     UnlockedPartsIDs: [
-        "junction_2v_circular",
-        "junction_2v_square",
-        "adapter_2v_cir-sqr",
-        "adapter_2v_cir-tri",
+        junction_2v_circular,
+        junction_2v_square,
+        adapter_2v_cir-sqr,
+        adapter_2v_cir-tri,
         "resizer_2v_circular_2v-1v",
         "resizer_2v_square_2v-1v",
         "resizer_2v_triangular_2v-1v"
     ];
     RequiredTechNodeIDs: [
-        "wmcc_even_larger_trusses"
+        wmcc_even_larger_trusses
     ];
     TechTreePosition: {
         x: 2500,
         y: 200
     };
 }
-@new("wmcc_trusses")
+@new(wmcc_trusses)
 :science {
     Version: 4;
-    ID: "wmcc_trusses";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_trusses";
     IconID: "";
     CategoryID: "";
@@ -1179,26 +1130,25 @@
     RequiredSciencePoints: 50;
     UnlockedPartsIDs: [
         "truss_0v_square_1x1_0-31m",
-        "truss_0v_square_1x4",
+        truss_0v_square_1x4,
         "truss_0v_square_1x4_0-31m",
         "junction_0v_square_0-31m",
-        "junction_0v_square",
+        junction_0v_square,
         "resizer_0v_square_0v-0v_0-31m",
         "resizer_1v_square_1v-0v",
-        "truss_0v_square_1x1"
+        truss_0v_square_1x1
     ];
     RequiredTechNodeIDs: [
-        "wmcc_intermediate_construction"
+        wmcc_intermediate_construction
     ];
     TechTreePosition: {
         x: 900,
         y: 640
     };
 }
-@new("wmcc_safer_rocketry")
+@new(wmcc_safer_rocketry)
 :science {
     Version: 4;
-    ID: "wmcc_safer_rocketry";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_safer_rocketry";
     IconID: "";
     CategoryID: "";
@@ -1206,26 +1156,25 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_safer_rocketry";
     RequiredSciencePoints: 400;
     UnlockedPartsIDs: [
-        "heatshield_2v",
-        "ladder_1v_telescoping_kelus",
-        "light_0v_navigation",
-        "light_0v_strip",
-        "parachute_1v_drogue",
-        "light_0v_spot_narrow",
-        "light_0v_spot"
+        heatshield_2v,
+        ladder_1v_telescoping_kelus,
+        light_0v_navigation,
+        light_0v_strip,
+        parachute_1v_drogue,
+        light_0v_spot_narrow,
+        light_0v_spot
     ];
     RequiredTechNodeIDs: [
-        "wmcc_advanced_adapters_and_connectors"
+        wmcc_advanced_adapters_and_connectors
     ];
     TechTreePosition: {
         x: 2140,
         y: 310
     };
 }
-@new("wmcc_heavier_landers")
+@new(wmcc_heavier_landers)
 :science {
     Version: 4;
-    ID: "wmcc_heavier_landers";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_heavier_landers";
     IconID: "";
     CategoryID: "";
@@ -1233,22 +1182,21 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_heavier_landers";
     RequiredSciencePoints: 650;
     UnlockedPartsIDs: [
-        "landingleg_2v",
-        "ladder_2v_telescoping_kelus",
-        "parachute_1v"
+        landingleg_2v,
+        ladder_2v_telescoping_kelus,
+        parachute_1v
     ];
     RequiredTechNodeIDs: [
-        "wmcc_safer_rocketry"
+        wmcc_safer_rocketry
     ];
     TechTreePosition: {
         x: 2500,
         y: 310
     };
 }
-@new("wmcc_autonomous_exploration")
+@new(wmcc_autonomous_exploration)
 :science {
     Version: 4;
-    ID: "wmcc_autonomous_exploration";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_autonomous_exploration";
     IconID: "";
     CategoryID: "";
@@ -1256,22 +1204,21 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_autonomous_exploration";
     RequiredSciencePoints: 400;
     UnlockedPartsIDs: [
-        "probe_1v_rover_electricity",
-        "wheel_0v_rover",
-        "wheel_1v_rover"
+        probe_1v_rover_electricity,
+        wheel_0v_rover,
+        wheel_1v_rover
     ];
     RequiredTechNodeIDs: [
-        "wmcc_larger_probes"
+        wmcc_larger_probes
     ];
     TechTreePosition: {
         x: 2140,
         y: 420
     };
 }
-@new("wmcc_buggies")
+@new(wmcc_buggies)
 :science {
     Version: 4;
-    ID: "wmcc_buggies";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_buggies";
     IconID: "";
     CategoryID: "";
@@ -1279,20 +1226,19 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_buggies";
     RequiredSciencePoints: 500;
     UnlockedPartsIDs: [
-        "seat_0v_external_crew"
+        seat_0v_external_crew
     ];
     RequiredTechNodeIDs: [
-        "wmcc_autonomous_exploration"
+        wmcc_autonomous_exploration
     ];
     TechTreePosition: {
         x: 2320,
         y: 420
     };
 }
-@new("wmcc_robotic_arms")
+@new(wmcc_robotic_arms)
 :science {
     Version: 4;
-    ID: "wmcc_robotic_arms";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_robotic_arms";
     IconID: "";
     CategoryID: "";
@@ -1300,20 +1246,19 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_robotic_arms";
     RequiredSciencePoints: 850;
     UnlockedPartsIDs: [
-        "collector_0v_radial_science_sampler"
+        collector_0v_radial_science_sampler
     ];
     RequiredTechNodeIDs: [
-        "wmcc_larger_wheels"
+        wmcc_larger_wheels
     ];
     TechTreePosition: {
         x: 2680,
         y: 420
     };
 }
-@new("wmcc_larger_wheels")
+@new(wmcc_larger_wheels)
 :science {
     Version: 4;
-    ID: "wmcc_larger_wheels";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_larger_wheels";
     IconID: "";
     CategoryID: "";
@@ -1321,20 +1266,19 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_larger_wheels";
     RequiredSciencePoints: 650;
     UnlockedPartsIDs: [
-        "wheel_2v_rover_ruggedized"
+        wheel_2v_rover_ruggedized
     ];
     RequiredTechNodeIDs: [
-        "wmcc_buggies"
+        wmcc_buggies
     ];
     TechTreePosition: {
         x: 2500,
         y: 420
     };
 }
-@new("wmcc_compact_atmospheric_science")
+@new(wmcc_compact_atmospheric_science)
 :science {
     Version: 4;
-    ID: "wmcc_compact_atmospheric_science";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_compact_atmospheric_science";
     IconID: "";
     CategoryID: "";
@@ -1342,20 +1286,19 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_compact_atmospheric_science";
     RequiredSciencePoints: 850;
     UnlockedPartsIDs: [
-        "collector_0v_radial_science_atmospheric"
+        collector_0v_radial_science_atmospheric
     ];
     RequiredTechNodeIDs: [
-        "wmcc_atmospheric_science"
+        wmcc_atmospheric_science
     ];
     TechTreePosition: {
         x: 2680,
         y: 530
     };
 }
-@new("wmcc_larger_crew_capsules")
+@new(wmcc_larger_crew_capsules)
 :science {
     Version: 4;
-    ID: "wmcc_larger_crew_capsules";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_larger_crew_capsules";
     IconID: "";
     CategoryID: "";
@@ -1363,23 +1306,22 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_larger_crew_capsules";
     RequiredSciencePoints: 1400;
     UnlockedPartsIDs: [
-        "pod_2v_conical_crew",
-        "pod_2v_cupola_crew",
-        "pod_2v_lander_crew",
-        "escapesystem_1v_launch"
+        pod_2v_conical_crew,
+        pod_2v_cupola_crew,
+        pod_2v_lander_crew,
+        escapesystem_1v_launch
     ];
     RequiredTechNodeIDs: [
-        "wmcc_efficient_launch_systems"
+        wmcc_efficient_launch_systems
     ];
     TechTreePosition: {
         x: 3060,
         y: 750
     };
 }
-@new("wmcc_heavy_orbital_rocketry")
+@new(wmcc_heavy_orbital_rocketry)
 :science {
     Version: 4;
-    ID: "wmcc_heavy_orbital_rocketry";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_heavy_orbital_rocketry";
     IconID: "";
     CategoryID: "";
@@ -1387,24 +1329,23 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_heavy_orbital_rocketry";
     RequiredSciencePoints: 1800;
     UnlockedPartsIDs: [
-        "engine_3v_methalox_rhino",
-        "fueltank_3v_inline_methalox_1x2",
+        engine_3v_methalox_rhino,
+        fueltank_3v_inline_methalox_1x2,
         "adapter_3v_methalox_2v-3v",
-        "decoupler_3v_inline",
-        "fairing_3v_procedural"
+        decoupler_3v_inline,
+        fairing_3v_procedural
     ];
     RequiredTechNodeIDs: [
-        "wmcc_larger_crew_capsules"
+        wmcc_larger_crew_capsules
     ];
     TechTreePosition: {
         x: 3240,
         y: 750
     };
 }
-@new("wmcc_heavy_launchers")
+@new(wmcc_heavy_launchers)
 :science {
     Version: 4;
-    ID: "wmcc_heavy_launchers";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_heavy_launchers";
     IconID: "";
     CategoryID: "";
@@ -1412,22 +1353,21 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_heavy_launchers";
     RequiredSciencePoints: 2300;
     UnlockedPartsIDs: [
-        "engine_3v_methalox_mammoth",
-        "fueltank_3v_inline_methalox_1x4",
-        "fueltank_3v_inline_methalox_1x8"
+        engine_3v_methalox_mammoth,
+        fueltank_3v_inline_methalox_1x4,
+        fueltank_3v_inline_methalox_1x8
     ];
     RequiredTechNodeIDs: [
-        "wmcc_heavy_orbital_rocketry"
+        wmcc_heavy_orbital_rocketry
     ];
     TechTreePosition: {
         x: 3420,
         y: 750
     };
 }
-@new("wmcc_deep_space_communications")
+@new(wmcc_deep_space_communications)
 :science {
     Version: 4;
-    ID: "wmcc_deep_space_communications";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_deep_space_communications";
     IconID: "";
     CategoryID: "";
@@ -1435,22 +1375,21 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_deep_space_communications";
     RequiredSciencePoints: 1800;
     UnlockedPartsIDs: [
-        "antenna_1v_dish_hg55",
+        antenna_1v_dish_hg55,
         "antenna_1v_dish_ra-100",
         "antenna_1v_dish_88-88"
     ];
     RequiredTechNodeIDs: [
-        "wmcc_larger_electronics"
+        wmcc_larger_electronics
     ];
     TechTreePosition: {
         x: 3420,
         y: 640
     };
 }
-@new("wmcc_heavy_maneuvering")
+@new(wmcc_heavy_maneuvering)
 :science {
     Version: 4;
-    ID: "wmcc_heavy_maneuvering";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_heavy_maneuvering";
     IconID: "";
     CategoryID: "";
@@ -1458,24 +1397,23 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_heavy_maneuvering";
     RequiredSciencePoints: 2900;
     UnlockedPartsIDs: [
-        "fueltank_3v_inline_monoprop",
-        "fueltank_4v_radial_monoprop",
-        "engine_3v_methalox_labradoodle",
-        "fueltank_3v_inline_methalox_1x1",
-        "heatshield_3v"
+        fueltank_3v_inline_monoprop,
+        fueltank_4v_radial_monoprop,
+        engine_3v_methalox_labradoodle,
+        fueltank_3v_inline_methalox_1x1,
+        heatshield_3v
     ];
     RequiredTechNodeIDs: [
-        "wmcc_heavy_launchers"
+        wmcc_heavy_launchers
     ];
     TechTreePosition: {
         x: 3600,
         y: 640
     };
 }
-@new("wmcc_vacuum_engines")
+@new(wmcc_vacuum_engines)
 :science {
     Version: 4;
-    ID: "wmcc_vacuum_engines";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_vacuum_engines";
     IconID: "";
     CategoryID: "";
@@ -1483,22 +1421,21 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_vacuum_engines";
     RequiredSciencePoints: 2900;
     UnlockedPartsIDs: [
-        "engine_1v_methalox_cornet",
-        "engine_2v_methalox_trumpet",
-        "engine_3v_methalox_tuba"
+        engine_1v_methalox_cornet,
+        engine_2v_methalox_trumpet,
+        engine_3v_methalox_tuba
     ];
     RequiredTechNodeIDs: [
-        "wmcc_heavy_launchers"
+        wmcc_heavy_launchers
     ];
     TechTreePosition: {
         x: 3600,
         y: 750
     };
 }
-@new("wmcc_nuclear_propulsion")
+@new(wmcc_nuclear_propulsion)
 :science {
     Version: 4;
-    ID: "wmcc_nuclear_propulsion";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_nuclear_propulsion";
     IconID: "";
     CategoryID: "";
@@ -1506,23 +1443,22 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_nuclear_propulsion";
     RequiredSciencePoints: 4500;
     UnlockedPartsIDs: [
-        "fueltank_1v_inline_hydrogen_long",
-        "fueltank_2v_inline_hydrogen_short",
-        "fueltank_2v_inline_hydrogen_long",
-        "engine_1v_hydrogen_nerv"
+        fueltank_1v_inline_hydrogen_long,
+        fueltank_2v_inline_hydrogen_short,
+        fueltank_2v_inline_hydrogen_long,
+        engine_1v_hydrogen_nerv
     ];
     RequiredTechNodeIDs: [
-        "wmcc_vacuum_engines"
+        wmcc_vacuum_engines
     ];
     TechTreePosition: {
         x: 3960,
         y: 750
     };
 }
-@new("wmcc_deep_space_power")
+@new(wmcc_deep_space_power)
 :science {
     Version: 4;
-    ID: "wmcc_deep_space_power";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_deep_space_power";
     IconID: "";
     CategoryID: "";
@@ -1530,22 +1466,21 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_deep_space_power";
     RequiredSciencePoints: 1800;
     UnlockedPartsIDs: [
-        "generator_0v_thermoelectric_radioisotope",
-        "storage_2v_battery_electricity",
-        "fuelcell_1v_array"
+        generator_0v_thermoelectric_radioisotope,
+        storage_2v_battery_electricity,
+        fuelcell_1v_array
     ];
     RequiredTechNodeIDs: [
-        "wmcc_larger_electronics"
+        wmcc_larger_electronics
     ];
     TechTreePosition: {
         x: 3420,
         y: 530
     };
 }
-@new("wmcc_nuclear_reactors")
+@new(wmcc_nuclear_reactors)
 :science {
     Version: 4;
-    ID: "wmcc_nuclear_reactors";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_nuclear_reactors";
     IconID: "";
     CategoryID: "";
@@ -1553,20 +1488,19 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_nuclear_reactors";
     RequiredSciencePoints: 2900;
     UnlockedPartsIDs: [
-        "generator_1v_fission_reactor"
+        generator_1v_fission_reactor
     ];
     RequiredTechNodeIDs: [
-        "wmcc_larger_solar_panels"
+        wmcc_larger_solar_panels
     ];
     TechTreePosition: {
         x: 3780,
         y: 530
     };
 }
-@new("wmcc_larger_solar_panels")
+@new(wmcc_larger_solar_panels)
 :science {
     Version: 4;
-    ID: "wmcc_larger_solar_panels";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_larger_solar_panels";
     IconID: "";
     CategoryID: "";
@@ -1574,21 +1508,20 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_larger_solar_panels";
     RequiredSciencePoints: 2300;
     UnlockedPartsIDs: [
-        "storage_3v_battery_electricity",
-        "solararray_3v_large"
+        storage_3v_battery_electricity,
+        solararray_3v_large
     ];
     RequiredTechNodeIDs: [
-        "wmcc_deep_space_power"
+        wmcc_deep_space_power
     ];
     TechTreePosition: {
         x: 3600,
         y: 530
     };
 }
-@new("wmcc_radiation_science")
+@new(wmcc_radiation_science)
 :science {
     Version: 4;
-    ID: "wmcc_radiation_science";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_radiation_science";
     IconID: "";
     CategoryID: "";
@@ -1596,20 +1529,19 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_radiation_science";
     RequiredSciencePoints: 2300;
     UnlockedPartsIDs: [
-        "collector_0v_science_radiation"
+        collector_0v_science_radiation
     ];
     RequiredTechNodeIDs: [
-        "wmcc_deep_space_probes"
+        wmcc_deep_space_probes
     ];
     TechTreePosition: {
         x: 3600,
         y: 420
     };
 }
-@new("wmcc_orbital_science")
+@new(wmcc_orbital_science)
 :science {
     Version: 4;
-    ID: "wmcc_orbital_science";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_orbital_science";
     IconID: "";
     CategoryID: "";
@@ -1617,20 +1549,19 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_orbital_science";
     RequiredSciencePoints: 2900;
     UnlockedPartsIDs: [
-        "lab_2v_science_orbital"
+        lab_2v_science_orbital
     ];
     RequiredTechNodeIDs: [
-        "wmcc_radiation_science"
+        wmcc_radiation_science
     ];
     TechTreePosition: {
         x: 3780,
         y: 420
     };
 }
-@new("wmcc_large_scale_construction")
+@new(wmcc_large_scale_construction)
 :science {
     Version: 4;
-    ID: "wmcc_large_scale_construction";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_large_scale_construction";
     IconID: "";
     CategoryID: "";
@@ -1638,27 +1569,26 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_large_scale_construction";
     RequiredSciencePoints: 1400;
     UnlockedPartsIDs: [
-        "tube_3v_procedural",
-        "truss_3v_circular_1x1",
-        "truss_3v_circular_1x4",
-        "truss_3v_square_1x1",
-        "truss_3v_square_1x4",
-        "truss_3v_triangular_1x1",
-        "truss_3v_triangular_1x4",
+        tube_3v_procedural,
+        truss_3v_circular_1x1,
+        truss_3v_circular_1x4,
+        truss_3v_square_1x1,
+        truss_3v_square_1x4,
+        truss_3v_triangular_1x1,
+        truss_3v_triangular_1x4,
         "adapter_3v_conical_2v-3v"
     ];
     RequiredTechNodeIDs: [
-        "wmcc_larger_crew_capsules"
+        wmcc_larger_crew_capsules
     ];
     TechTreePosition: {
         x: 3240,
         y: 310
     };
 }
-@new("wmcc_large_scale_adapters")
+@new(wmcc_large_scale_adapters)
 :science {
     Version: 4;
-    ID: "wmcc_large_scale_adapters";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_large_scale_adapters";
     IconID: "";
     CategoryID: "";
@@ -1669,23 +1599,22 @@
         "resizer_3v_circular_3v-2v",
         "resizer_3v_square_3v-2v",
         "resizer_3v_triangular_3v-2v",
-        "junction_3v_circular",
-        "junction_3v_square",
-        "adapter_3v_cir-sqr",
-        "adapter_3v_cir-tri"
+        junction_3v_circular,
+        junction_3v_square,
+        adapter_3v_cir-sqr,
+        adapter_3v_cir-tri
     ];
     RequiredTechNodeIDs: [
-        "wmcc_large_scale_construction"
+        wmcc_large_scale_construction
     ];
     TechTreePosition: {
         x: 3420,
         y: 310
     };
 }
-@new("wmcc_heavy_payloads")
+@new(wmcc_heavy_payloads)
 :science {
     Version: 4;
-    ID: "wmcc_heavy_payloads";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_heavy_payloads";
     IconID: "";
     CategoryID: "";
@@ -1693,26 +1622,25 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_heavy_payloads";
     RequiredSciencePoints: 2300;
     UnlockedPartsIDs: [
-        "truss_3v_saddle_1x1",
-        "truss_3v_saddle_1x4",
-        "cargobay_3v_nose",
-        "cargobay_3v_1x1",
-        "cargobay_3v_1x8",
-        "enginemount_3v_procedural",
-        "cabin_2v_crew_hitchhiker"
+        truss_3v_saddle_1x1,
+        truss_3v_saddle_1x4,
+        cargobay_3v_nose,
+        cargobay_3v_1x1,
+        cargobay_3v_1x8,
+        enginemount_3v_procedural,
+        cabin_2v_crew_hitchhiker
     ];
     RequiredTechNodeIDs: [
-        "wmcc_large_scale_adapters"
+        wmcc_large_scale_adapters
     ];
     TechTreePosition: {
         x: 3600,
         y: 310
     };
 }
-@new("wmcc_better_planned_reassembly")
+@new(wmcc_better_planned_reassembly)
 :science {
     Version: 4;
-    ID: "wmcc_better_planned_reassembly";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_better_planned_reassembly";
     IconID: "";
     CategoryID: "";
@@ -1720,23 +1648,22 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_better_planned_reassembly";
     RequiredSciencePoints: 2300;
     UnlockedPartsIDs: [
-        "dockingport_1v_inline_shielded",
-        "dockingport_1v_inline_sideport",
-        "dockingport_2v_m2_inline_sideport",
-        "dockingport_2v_inline"
+        dockingport_1v_inline_shielded,
+        dockingport_1v_inline_sideport,
+        dockingport_2v_m2_inline_sideport,
+        dockingport_2v_inline
     ];
     RequiredTechNodeIDs: [
-        "wmcc_larger_scale_disassembly"
+        wmcc_larger_scale_disassembly
     ];
     TechTreePosition: {
         x: 3600,
         y: 200
     };
 }
-@new("wmcc_robust_aerodynamics")
+@new(wmcc_robust_aerodynamics)
 :science {
     Version: 4;
-    ID: "wmcc_robust_aerodynamics";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_robust_aerodynamics";
     IconID: "";
     CategoryID: "";
@@ -1744,25 +1671,24 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_robust_aerodynamics";
     RequiredSciencePoints: 1400;
     UnlockedPartsIDs: [
-        "nosecone_2v_protective",
-        "tailsection_1v_tapered_conical",
-        "tailsection_1v_tapered_rightcone",
-        "stabilizer_3v_reactionwheel",
-        "nosecone_3v",
-        "gridfin_2v_radial"
+        nosecone_2v_protective,
+        tailsection_1v_tapered_conical,
+        tailsection_1v_tapered_rightcone,
+        stabilizer_3v_reactionwheel,
+        nosecone_3v,
+        gridfin_2v_radial
     ];
     RequiredTechNodeIDs: [
-        "wmcc_larger_crew_capsules"
+        wmcc_larger_crew_capsules
     ];
     TechTreePosition: {
         x: 3240,
         y: 90
     };
 }
-@new("wmcc_widebody_planes")
+@new(wmcc_widebody_planes)
 :science {
     Version: 4;
-    ID: "wmcc_widebody_planes";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_widebody_planes";
     IconID: "";
     CategoryID: "";
@@ -1770,26 +1696,25 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_widebody_planes";
     RequiredSciencePoints: 2300;
     UnlockedPartsIDs: [
-        "cockpit_3v_m3_crew",
-        "landinggear_4v",
-        "intake_1v_m1_precooler_methane",
-        "fueltank_3v_m3_inline_methane_1x4",
-        "wing_3v_procedural_heavy",
-        "stabilizer_3v_procedural_heavy",
-        "engine_2v_turbofan_methane_goliath"
+        cockpit_3v_m3_crew,
+        landinggear_4v,
+        intake_1v_m1_precooler_methane,
+        fueltank_3v_m3_inline_methane_1x4,
+        wing_3v_procedural_heavy,
+        stabilizer_3v_procedural_heavy,
+        engine_2v_turbofan_methane_goliath
     ];
     RequiredTechNodeIDs: [
-        "wmcc_advanced_jets"
+        wmcc_advanced_jets
     ];
     TechTreePosition: {
         x: 3600,
         y: 90
     };
 }
-@new("wmcc_advanced_jets")
+@new(wmcc_advanced_jets)
 :science {
     Version: 4;
-    ID: "wmcc_advanced_jets";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_advanced_jets";
     IconID: "";
     CategoryID: "";
@@ -1797,26 +1722,25 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_advanced_jets";
     RequiredSciencePoints: 1800;
     UnlockedPartsIDs: [
-        "engine_1v_turboramjet_methane_whiplash",
-        "intake_1v_m1_shockcone",
-        "fueltank_3v_m3_inline_methane_1x1",
-        "fueltank_3v_m3_inline_methane_1x2",
-        "engine_1v_methalox_dart",
-        "landinggear_3v",
-        "intake_1v_m1_supersonic_diverterless"
+        engine_1v_turboramjet_methane_whiplash,
+        intake_1v_m1_shockcone,
+        fueltank_3v_m3_inline_methane_1x1,
+        fueltank_3v_m3_inline_methane_1x2,
+        engine_1v_methalox_dart,
+        landinggear_3v,
+        intake_1v_m1_supersonic_diverterless
     ];
     RequiredTechNodeIDs: [
-        "wmcc_robust_aerodynamics"
+        wmcc_robust_aerodynamics
     ];
     TechTreePosition: {
         x: 3420,
         y: 90
     };
 }
-@new("wmcc_very_large_crew_capsules")
+@new(wmcc_very_large_crew_capsules)
 :science {
     Version: 4;
-    ID: "wmcc_very_large_crew_capsules";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_very_large_crew_capsules";
     IconID: "";
     CategoryID: "";
@@ -1824,21 +1748,20 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_very_large_crew_capsules";
     RequiredSciencePoints: 5000;
     UnlockedPartsIDs: [
-        "pod_3v_conical_crew",
-        "pod_3v_lander_crew"
+        pod_3v_conical_crew,
+        pod_3v_lander_crew
     ];
     RequiredTechNodeIDs: [
-        "wmcc_nuclear_propulsion"
+        wmcc_nuclear_propulsion
     ];
     TechTreePosition: {
         x: 4680,
         y: 750
     };
 }
-@new("wmcc_very_large_fuel_tanks")
+@new(wmcc_very_large_fuel_tanks)
 :science {
     Version: 4;
-    ID: "wmcc_very_large_fuel_tanks";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_very_large_fuel_tanks";
     IconID: "";
     CategoryID: "";
@@ -1846,25 +1769,24 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_very_large_fuel_tanks";
     RequiredSciencePoints: 6000;
     UnlockedPartsIDs: [
-        "fueltank_4v_inline_methalox_s1",
-        "fueltank_4v_inline_methalox_s2",
-        "fueltank_4v_inline_methalox_s3",
-        "fueltank_4v_inline_methalox_s4",
+        fueltank_4v_inline_methalox_s1,
+        fueltank_4v_inline_methalox_s2,
+        fueltank_4v_inline_methalox_s3,
+        fueltank_4v_inline_methalox_s4,
         "adapter_4v_methalox_3v-4v",
-        "fairing_4v_procedural"
+        fairing_4v_procedural
     ];
     RequiredTechNodeIDs: [
-        "wmcc_very_large_crew_capsules"
+        wmcc_very_large_crew_capsules
     ];
     TechTreePosition: {
         x: 4860,
         y: 750
     };
 }
-@new("wmcc_very_large_hydrogen_tanks")
+@new(wmcc_very_large_hydrogen_tanks)
 :science {
     Version: 4;
-    ID: "wmcc_very_large_hydrogen_tanks";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_very_large_hydrogen_tanks";
     IconID: "";
     CategoryID: "";
@@ -1872,22 +1794,21 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_very_large_hydrogen_tanks";
     RequiredSciencePoints: 7000;
     UnlockedPartsIDs: [
-        "fueltank_4v_inline_hydrogen_short",
-        "fueltank_4v_inline_hydrogen_long",
-        "fueltank_5v_inline_hydrogen_sphere"
+        fueltank_4v_inline_hydrogen_short,
+        fueltank_4v_inline_hydrogen_long,
+        fueltank_5v_inline_hydrogen_sphere
     ];
     RequiredTechNodeIDs: [
-        "wmcc_very_large_fuel_tanks"
+        wmcc_very_large_fuel_tanks
     ];
     TechTreePosition: {
         x: 5040,
         y: 750
     };
 }
-@new("wmcc_large_hydrogen_tanks")
+@new(wmcc_large_hydrogen_tanks)
 :science {
     Version: 4;
-    ID: "wmcc_large_hydrogen_tanks";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_large_hydrogen_tanks";
     IconID: "";
     CategoryID: "";
@@ -1895,21 +1816,20 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_large_hydrogen_tanks";
     RequiredSciencePoints: 4500;
     UnlockedPartsIDs: [
-        "fueltank_3v_inline_hydrogen_short",
-        "fueltank_3v_inline_hydrogen_long"
+        fueltank_3v_inline_hydrogen_short,
+        fueltank_3v_inline_hydrogen_long
     ];
     RequiredTechNodeIDs: [
-        "wmcc_nuclear_propulsion"
+        wmcc_nuclear_propulsion
     ];
     TechTreePosition: {
         x: 4140,
         y: 640
     };
 }
-@new("wmcc_efficient_nuclear_propulsion")
+@new(wmcc_efficient_nuclear_propulsion)
 :science {
     Version: 4;
-    ID: "wmcc_efficient_nuclear_propulsion";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_efficient_nuclear_propulsion";
     IconID: "";
     CategoryID: "";
@@ -1917,20 +1837,19 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_efficient_nuclear_propulsion";
     RequiredSciencePoints: 8000;
     UnlockedPartsIDs: [
-        "engine_3v_hydrogen_swerv"
+        engine_3v_hydrogen_swerv
     ];
     RequiredTechNodeIDs: [
-        "wmcc_very_large_hydrogen_tanks"
+        wmcc_very_large_hydrogen_tanks
     ];
     TechTreePosition: {
         x: 5220,
         y: 750
     };
 }
-@new("wmcc_very_large_electronics")
+@new(wmcc_very_large_electronics)
 :science {
     Version: 4;
-    ID: "wmcc_very_large_electronics";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_very_large_electronics";
     IconID: "";
     CategoryID: "";
@@ -1938,21 +1857,20 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_very_large_electronics";
     RequiredSciencePoints: 5000;
     UnlockedPartsIDs: [
-        "storage_4v_battery_electricity",
-        "generator_3v_thermoelectric_radioisotope"
+        storage_4v_battery_electricity,
+        generator_3v_thermoelectric_radioisotope
     ];
     RequiredTechNodeIDs: [
-        "wmcc_very_large_crew_capsules"
+        wmcc_very_large_crew_capsules
     ];
     TechTreePosition: {
         x: 4860,
         y: 640
     };
 }
-@new("wmcc_very_large_probes")
+@new(wmcc_very_large_probes)
 :science {
     Version: 4;
-    ID: "wmcc_very_large_probes";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_very_large_probes";
     IconID: "";
     CategoryID: "";
@@ -1960,20 +1878,19 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_very_large_probes";
     RequiredSciencePoints: 6000;
     UnlockedPartsIDs: [
-        "probe_4v_disk_electricity"
+        probe_4v_disk_electricity
     ];
     RequiredTechNodeIDs: [
-        "wmcc_very_large_electronics"
+        wmcc_very_large_electronics
     ];
     TechTreePosition: {
         x: 5040,
         y: 530
     };
 }
-@new("wmcc_longer_period_science")
+@new(wmcc_longer_period_science)
 :science {
     Version: 4;
-    ID: "wmcc_longer_period_science";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_longer_period_science";
     IconID: "";
     CategoryID: "";
@@ -1981,20 +1898,19 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_longer_period_science";
     RequiredSciencePoints: 7000;
     UnlockedPartsIDs: [
-        "collector_1v_radial_science_orbital"
+        collector_1v_radial_science_orbital
     ];
     RequiredTechNodeIDs: [
-        "wmcc_the_not_so_final_frontier"
+        wmcc_the_not_so_final_frontier
     ];
     TechTreePosition: {
         x: 5220,
         y: 640
     };
 }
-@new("wmcc_the_not_so_final_frontier")
+@new(wmcc_the_not_so_final_frontier)
 :science {
     Version: 4;
-    ID: "wmcc_the_not_so_final_frontier";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_the_not_so_final_frontier";
     IconID: "";
     CategoryID: "";
@@ -2002,20 +1918,19 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_the_not_so_final_frontier";
     RequiredSciencePoints: 6000;
     UnlockedPartsIDs: [
-        "lab_2v_science_marine"
+        lab_2v_science_marine
     ];
     RequiredTechNodeIDs: [
-        "wmcc_very_large_electronics"
+        wmcc_very_large_electronics
     ];
     TechTreePosition: {
         x: 5040,
         y: 640
     };
 }
-@new("wmcc_very_large_construction")
+@new(wmcc_very_large_construction)
 :science {
     Version: 4;
-    ID: "wmcc_very_large_construction";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_very_large_construction";
     IconID: "";
     CategoryID: "";
@@ -2024,21 +1939,20 @@
     RequiredSciencePoints: 5000;
     UnlockedPartsIDs: [
         "adapter_4v_3v-4v",
-        "tube_4v_procedural",
-        "nosecone_4v"
+        tube_4v_procedural,
+        nosecone_4v
     ];
     RequiredTechNodeIDs: [
-        "wmcc_very_large_crew_capsules"
+        wmcc_very_large_crew_capsules
     ];
     TechTreePosition: {
         x: 4860,
         y: 420
     };
 }
-@new("wmcc_very_large_trusses")
+@new(wmcc_very_large_trusses)
 :science {
     Version: 4;
-    ID: "wmcc_very_large_trusses";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_very_large_trusses";
     IconID: "";
     CategoryID: "";
@@ -2046,25 +1960,24 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_very_large_trusses";
     RequiredSciencePoints: 6000;
     UnlockedPartsIDs: [
-        "truss_4v_square_1x1",
-        "truss_4v_square_1x4",
-        "truss_4v_triangular_1x1",
-        "truss_4v_triangular_1x4",
-        "truss_4v_circular_1x1",
-        "truss_4v_circular_1x4"
+        truss_4v_square_1x1,
+        truss_4v_square_1x4,
+        truss_4v_triangular_1x1,
+        truss_4v_triangular_1x4,
+        truss_4v_circular_1x1,
+        truss_4v_circular_1x4
     ];
     RequiredTechNodeIDs: [
-        "wmcc_very_large_construction"
+        wmcc_very_large_construction
     ];
     TechTreePosition: {
         x: 5040,
         y: 420
     };
 }
-@new("wmcc_very_large_adapters")
+@new(wmcc_very_large_adapters)
 :science {
     Version: 4;
-    ID: "wmcc_very_large_adapters";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_very_large_adapters";
     IconID: "";
     CategoryID: "";
@@ -2078,23 +1991,22 @@
         "resizer_4v_square_4v-3v",
         "resizer_4v_triangular_4v-2v",
         "resizer_4v_triangular_4v-3v",
-        "junction_4v_circular",
-        "junction_4v_square",
-        "adapter_4v_cir-sqr",
-        "adapter_4v_cir-tri"
+        junction_4v_circular,
+        junction_4v_square,
+        adapter_4v_cir-sqr,
+        adapter_4v_cir-tri
     ];
     RequiredTechNodeIDs: [
-        "wmcc_very_large_trusses"
+        wmcc_very_large_trusses
     ];
     TechTreePosition: {
         x: 5220,
         y: 420
     };
 }
-@new("wmcc_very_large_payloads")
+@new(wmcc_very_large_payloads)
 :science {
     Version: 4;
-    ID: "wmcc_very_large_payloads";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_very_large_payloads";
     IconID: "";
     CategoryID: "";
@@ -2102,26 +2014,25 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_very_large_payloads";
     RequiredSciencePoints: 8000;
     UnlockedPartsIDs: [
-        "truss_4v_saddle_1x1",
-        "truss_4v_saddle_1x4",
-        "cargobay_4v_nose",
-        "cargobay_4v_1x1",
-        "cargobay_4v_1x4",
-        "enginemount_4v_procedural",
-        "cabin_3v_crew"
+        truss_4v_saddle_1x1,
+        truss_4v_saddle_1x4,
+        cargobay_4v_nose,
+        cargobay_4v_1x1,
+        cargobay_4v_1x4,
+        enginemount_4v_procedural,
+        cabin_3v_crew
     ];
     RequiredTechNodeIDs: [
-        "wmcc_very_large_adapters"
+        wmcc_very_large_adapters
     ];
     TechTreePosition: {
         x: 5400,
         y: 420
     };
 }
-@new("wmcc_interplanetary_truck_simulator")
+@new(wmcc_interplanetary_truck_simulator)
 :science {
     Version: 4;
-    ID: "wmcc_interplanetary_truck_simulator";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_interplanetary_truck_simulator";
     IconID: "";
     CategoryID: "";
@@ -2129,23 +2040,22 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_interplanetary_truck_simulator";
     RequiredSciencePoints: 7000;
     UnlockedPartsIDs: [
-        "cockpit_3v_truck_crew",
-        "chassis_3v_truck",
-        "wheel_2v_truck",
-        "wheel_3v_rover"
+        cockpit_3v_truck_crew,
+        chassis_3v_truck,
+        wheel_2v_truck,
+        wheel_3v_rover
     ];
     RequiredTechNodeIDs: [
-        "wmcc_very_large_trusses"
+        wmcc_very_large_trusses
     ];
     TechTreePosition: {
         x: 5220,
         y: 530
     };
 }
-@new("wmcc_very_large_disassembly")
+@new(wmcc_very_large_disassembly)
 :science {
     Version: 4;
-    ID: "wmcc_very_large_disassembly";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_very_large_disassembly";
     IconID: "";
     CategoryID: "";
@@ -2153,22 +2063,21 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_very_large_disassembly";
     RequiredSciencePoints: 6000;
     UnlockedPartsIDs: [
-        "decoupler_4v_inline",
-        "decoupler_4v_radial",
-        "separator_4v_inline"
+        decoupler_4v_inline,
+        decoupler_4v_radial,
+        separator_4v_inline
     ];
     RequiredTechNodeIDs: [
-        "wmcc_very_large_construction"
+        wmcc_very_large_construction
     ];
     TechTreePosition: {
         x: 5040,
         y: 310
     };
 }
-@new("wmcc_very_large_reassembly")
+@new(wmcc_very_large_reassembly)
 :science {
     Version: 4;
-    ID: "wmcc_very_large_reassembly";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_very_large_reassembly";
     IconID: "";
     CategoryID: "";
@@ -2176,21 +2085,20 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_very_large_reassembly";
     RequiredSciencePoints: 7000;
     UnlockedPartsIDs: [
-        "dockingring_4v_inline",
-        "dockingport_3v_inline"
+        dockingring_4v_inline,
+        dockingport_3v_inline
     ];
     RequiredTechNodeIDs: [
-        "wmcc_very_large_disassembly"
+        wmcc_very_large_disassembly
     ];
     TechTreePosition: {
         x: 5220,
         y: 310
     };
 }
-@new("wmcc_larger_scale_disassembly")
+@new(wmcc_larger_scale_disassembly)
 :science {
     Version: 4;
-    ID: "wmcc_larger_scale_disassembly";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_larger_scale_disassembly";
     IconID: "";
     CategoryID: "";
@@ -2198,21 +2106,20 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_larger_scale_disassembly";
     RequiredSciencePoints: 1800;
     UnlockedPartsIDs: [
-        "decoupler_3v_radial",
-        "separator_3v_inline"
+        decoupler_3v_radial,
+        separator_3v_inline
     ];
     RequiredTechNodeIDs: [
-        "wmcc_large_scale_construction"
+        wmcc_large_scale_construction
     ];
     TechTreePosition: {
         x: 3420,
         y: 200
     };
 }
-@new("wmcc_sstos")
+@new(wmcc_sstos)
 :science {
     Version: 4;
-    ID: "wmcc_sstos";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_sstos";
     IconID: "";
     CategoryID: "";
@@ -2220,23 +2127,22 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_sstos";
     RequiredSciencePoints: 5000;
     UnlockedPartsIDs: [
-        "engine_1v_methane-methalox_rapier",
-        "wing_3v_procedural_spaceplane",
-        "stabilizer_3v_procedural_spaceplane",
-        "controlsurface_3v_procedural_spaceplane"
+        engine_1v_methane-methalox_rapier,
+        wing_3v_procedural_spaceplane,
+        stabilizer_3v_procedural_spaceplane,
+        controlsurface_3v_procedural_spaceplane
     ];
     RequiredTechNodeIDs: [
-        "wmcc_very_large_crew_capsules"
+        wmcc_very_large_crew_capsules
     ];
     TechTreePosition: {
         x: 4860,
         y: 90
     };
 }
-@new("wmcc_mark_three_spaceplanes")
+@new(wmcc_mark_three_spaceplanes)
 :science {
     Version: 4;
-    ID: "wmcc_mark_three_spaceplanes";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_mark_three_spaceplanes";
     IconID: "";
     CategoryID: "";
@@ -2244,27 +2150,26 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_mark_three_spaceplanes";
     RequiredSciencePoints: 6000;
     UnlockedPartsIDs: [
-        "fueltank_3v_m3_inline_methalox_1x1",
-        "fueltank_3v_m3_inline_methalox_1x2",
-        "fueltank_3v_m3_inline_methalox_1x4",
-        "fueltank_3v_m3_inline_monoprop",
-        "adapter_3v_m3_conical_methalox_2v-m3",
-        "adapter_3v_m3_methalox_3v-m3",
-        "adapter_3v_m3_rightcone_methalox_2v-m3",
-        "enginemount_3v_m3"
+        fueltank_3v_m3_inline_methalox_1x1,
+        fueltank_3v_m3_inline_methalox_1x2,
+        fueltank_3v_m3_inline_methalox_1x4,
+        fueltank_3v_m3_inline_monoprop,
+        adapter_3v_m3_conical_methalox_2v-m3,
+        adapter_3v_m3_methalox_3v-m3,
+        adapter_3v_m3_rightcone_methalox_2v-m3,
+        enginemount_3v_m3
     ];
     RequiredTechNodeIDs: [
-        "wmcc_sstos"
+        wmcc_sstos
     ];
     TechTreePosition: {
         x: 5040,
         y: 90
     };
 }
-@new("wmcc_mark_three_payloads")
+@new(wmcc_mark_three_payloads)
 :science {
     Version: 4;
-    ID: "wmcc_mark_three_payloads";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_mark_three_payloads";
     IconID: "";
     CategoryID: "";
@@ -2272,24 +2177,23 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_mark_three_payloads";
     RequiredSciencePoints: 6000;
     UnlockedPartsIDs: [
-        "cabin_3v_m3_crew",
-        "cargobay_3v_m3_1x1",
-        "cargobay_3v_m3_1x2",
-        "cargobay_3v_m3_1x4",
-        "cargobay_3v_m3_ramp_1x3"
+        cabin_3v_m3_crew,
+        cargobay_3v_m3_1x1,
+        cargobay_3v_m3_1x2,
+        cargobay_3v_m3_1x4,
+        cargobay_3v_m3_ramp_1x3
     ];
     RequiredTechNodeIDs: [
-        "wmcc_sstos"
+        wmcc_sstos
     ];
     TechTreePosition: {
         x: 5040,
         y: 200
     };
 }
-@new("wmcc_larger_electronics")
+@new(wmcc_larger_electronics)
 :science {
     Version: 4;
-    ID: "wmcc_larger_electronics";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_larger_electronics";
     IconID: "";
     CategoryID: "";
@@ -2297,22 +2201,21 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_larger_electronics";
     RequiredSciencePoints: 1400;
     UnlockedPartsIDs: [
-        "solararray_2v_accordion",
-        "fuelcell_0v",
-        "storage_1v_battery_electricity"
+        solararray_2v_accordion,
+        fuelcell_0v,
+        storage_1v_battery_electricity
     ];
     RequiredTechNodeIDs: [
-        "wmcc_larger_crew_capsules"
+        wmcc_larger_crew_capsules
     ];
     TechTreePosition: {
         x: 3240,
         y: 530
     };
 }
-@new("wmcc_very_heavy_landings")
+@new(wmcc_very_heavy_landings)
 :science {
     Version: 4;
-    ID: "wmcc_very_heavy_landings";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_very_heavy_landings";
     IconID: "";
     CategoryID: "";
@@ -2320,23 +2223,22 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_very_heavy_landings";
     RequiredSciencePoints: 5000;
     UnlockedPartsIDs: [
-        "landingleg_3v",
-        "ladder_3v_telescoping_verylong",
-        "heatshield_4v",
-        "heatshield_2v_inflatable"
+        landingleg_3v,
+        ladder_3v_telescoping_verylong,
+        heatshield_4v,
+        heatshield_2v_inflatable
     ];
     RequiredTechNodeIDs: [
-        "wmcc_very_large_crew_capsules"
+        wmcc_very_large_crew_capsules
     ];
     TechTreePosition: {
         x: 4860,
         y: 530
     };
 }
-@new("wmcc_deep_space_probes")
+@new(wmcc_deep_space_probes)
 :science {
     Version: 4;
-    ID: "wmcc_deep_space_probes";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_deep_space_probes";
     IconID: "";
     CategoryID: "";
@@ -2344,23 +2246,22 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_deep_space_probes";
     RequiredSciencePoints: 1800;
     UnlockedPartsIDs: [
-        "probe_1v_disk_electricity",
-        "probe_2v_disk_electricity",
-        "probe_3v_disk_electricity",
-        "probe_2v_m2_electricity"
+        probe_1v_disk_electricity,
+        probe_2v_disk_electricity,
+        probe_3v_disk_electricity,
+        probe_2v_m2_electricity
     ];
     RequiredTechNodeIDs: [
-        "wmcc_larger_electronics"
+        wmcc_larger_electronics
     ];
     TechTreePosition: {
         x: 3420,
         y: 420
     };
 }
-@new("wmcc_advanced_electronics_plus")
+@new(wmcc_advanced_electronics_plus)
 :science {
     Version: 4;
-    ID: "wmcc_advanced_electronics_plus";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_advanced_electronics_plus";
     IconID: "";
     CategoryID: "";
@@ -2368,24 +2269,23 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_advanced_electronics_plus";
     RequiredSciencePoints: 230;
     UnlockedPartsIDs: [
-        "stabilizer_2v_reactionwheel",
-        "solararray_1v_shielded_1x6",
-        "solararray_1v_shielded_3x2",
-        "solararray_1v_circular_shielded",
-        "storage_1v_battery_electricity_radial"
+        stabilizer_2v_reactionwheel,
+        solararray_1v_shielded_1x6,
+        solararray_1v_shielded_3x2,
+        solararray_1v_circular_shielded,
+        storage_1v_battery_electricity_radial
     ];
     RequiredTechNodeIDs: [
-        "wmcc_advanced_electronics"
+        wmcc_advanced_electronics
     ];
     TechTreePosition: {
         x: 1780,
         y: 310
     };
 }
-@new("wmcc_methalox_rcs")
+@new(wmcc_methalox_rcs)
 :science {
     Version: 4;
-    ID: "wmcc_methalox_rcs";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_methalox_rcs";
     IconID: "";
     CategoryID: "";
@@ -2393,20 +2293,19 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_methalox_rcs";
     RequiredSciencePoints: 80;
     UnlockedPartsIDs: [
-        "rcs_0v_linear_methalox"
+        rcs_0v_linear_methalox
     ];
     RequiredTechNodeIDs: [
-        "wmcc_small_radial_engines"
+        wmcc_small_radial_engines
     ];
     TechTreePosition: {
         x: 900,
         y: 310
     };
 }
-@new("wmcc_efficient_small_engines")
+@new(wmcc_efficient_small_engines)
 :science {
     Version: 4;
-    ID: "wmcc_efficient_small_engines";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_efficient_small_engines";
     IconID: "";
     CategoryID: "";
@@ -2414,20 +2313,19 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_efficient_small_engines";
     RequiredSciencePoints: 25;
     UnlockedPartsIDs: [
-        "engine_0v_methalox_spark"
+        engine_0v_methalox_spark
     ];
     RequiredTechNodeIDs: [
-        "wmcc_larger_boosters"
+        wmcc_larger_boosters
     ];
     TechTreePosition: {
         x: 540,
         y: 750
     };
 }
-@new("wmcc_larger_methalox_engines")
+@new(wmcc_larger_methalox_engines)
 :science {
     Version: 4;
-    ID: "wmcc_larger_methalox_engines";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_larger_methalox_engines";
     IconID: "";
     CategoryID: "";
@@ -2435,22 +2333,21 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_larger_methalox_engines";
     RequiredSciencePoints: 50;
     UnlockedPartsIDs: [
-        "engine_1v_methalox_swivel",
-        "fueltank_1v_inline_methalox_1x1",
-        "fueltank_1v_inline_methalox_1x2"
+        engine_1v_methalox_swivel,
+        fueltank_1v_inline_methalox_1x1,
+        fueltank_1v_inline_methalox_1x2
     ];
     RequiredTechNodeIDs: [
-        "wmcc_efficient_small_engines"
+        wmcc_efficient_small_engines
     ];
     TechTreePosition: {
         x: 720,
         y: 750
     };
 }
-@new("wmcc_orbital_maneuvering")
+@new(wmcc_orbital_maneuvering)
 :science {
     Version: 4;
-    ID: "wmcc_orbital_maneuvering";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_orbital_maneuvering";
     IconID: "";
     CategoryID: "";
@@ -2458,23 +2355,22 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_orbital_maneuvering";
     RequiredSciencePoints: 120;
     UnlockedPartsIDs: [
-        "rcs_0v_block_monoprop",
-        "rcs_0v_linear_monoprop",
-        "fueltank_0v_inline_monoprop",
-        "engine_1v_methalox_terrier"
+        rcs_0v_block_monoprop,
+        rcs_0v_linear_monoprop,
+        fueltank_0v_inline_monoprop,
+        engine_1v_methalox_terrier
     ];
     RequiredTechNodeIDs: [
-        "wmcc_larger_srbs"
+        wmcc_larger_srbs
     ];
     TechTreePosition: {
         x: 1080,
         y: 750
     };
 }
-@new("wmcc_munar_range_rocketry")
+@new(wmcc_munar_range_rocketry)
 :science {
     Version: 4;
-    ID: "wmcc_munar_range_rocketry";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_munar_range_rocketry";
     IconID: "";
     CategoryID: "";
@@ -2482,21 +2378,20 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_munar_range_rocketry";
     RequiredSciencePoints: 180;
     UnlockedPartsIDs: [
-        "landingleg_0v",
-        "fueltank_1v_inline_methalox_1x8"
+        landingleg_0v,
+        fueltank_1v_inline_methalox_1x8
     ];
     RequiredTechNodeIDs: [
-        "wmcc_orbital_maneuvering"
+        wmcc_orbital_maneuvering
     ];
     TechTreePosition: {
         x: 1260,
         y: 750
     };
 }
-@new("wmcc_small_radial_engines")
+@new(wmcc_small_radial_engines)
 :science {
     Version: 4;
-    ID: "wmcc_small_radial_engines";
     NameLocKey: "WMCC/TechNodes/Names/wmcc_small_radial_engines";
     IconID: "";
     CategoryID: "";
@@ -2504,10 +2399,10 @@
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_small_radial_engines";
     RequiredSciencePoints: 50;
     UnlockedPartsIDs: [
-        "engine_0v_methalox_twitch"
+        engine_0v_methalox_twitch
     ];
     RequiredTechNodeIDs: [
-        "wmcc_larger_radial_tanks"
+        wmcc_larger_radial_tanks
     ];
     TechTreePosition: {
         x: 720,
