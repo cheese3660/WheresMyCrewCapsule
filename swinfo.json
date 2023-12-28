@@ -28,7 +28,7 @@
         {
             "id": "WMCCModules",
             "version": {
-                "min": "*",
+                "min": "0.2.0",
                 "max": "*"
             }
         }

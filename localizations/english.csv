@@ -20,6 +20,8 @@ WMCC/Experiments/TelemetryReport,Text,,Telemetry Report
 WMCC/Requirements/TelemetryReport,Text,,Electricity
 WMCC/Flavor/TelemetryReport,Text,,*BEEP* *BOOP* *BEEEEEEEEEEP*
 WMCC/PressurizedCockpit,Text,,"Pressurized Interior"
+WMCC/ControlRange,Text,,"Control Range"
+WMCC/NearKerbin,Text,,"Near Kerbin"
 WMCC/TechNodes/Names/wmcc_early_sounding_rockets,"Text",,"Early Sounding Rockets"
 WMCC/TechNodes/Descriptions/wmcc_early_sounding_rockets,"Text",,"Welcome to your position director. We found these parts in the shed behind the VAB. I hope they are of use."
 WMCC/TechNodes/Names/wmcc_rapid_planned_disassembly,"Text",,"Rapid Planned Disassembly"

@@ -288,7 +288,7 @@
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_better_probes";
-    RequiredSciencePoints: 50;
+    RequiredSciencePoints: 35;
     UnlockedPartsIDs: [
         probe_0v_hexagonal_electricity,
         probe_0v_octagonal_electricity_1x3
@@ -390,7 +390,7 @@
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_longer_range_communications";
-    RequiredSciencePoints: 120;
+    RequiredSciencePoints: 50;
     UnlockedPartsIDs: [
         "antenna_0v_dish_ra-2",
         antenna_1v_dish_hg5
@@ -399,7 +399,7 @@
         wmcc_better_probes
     ];
     TechTreePosition: {
-        x: 1080,
+        x: 900,
         y: 90
     };
 }

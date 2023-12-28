@@ -135,7 +135,7 @@ $enable-funny-mission: false;
             Objective: "";
             * > MissionReward {
                 +SciencePoints {
-                    RewardAmount: 40.0;
+                    RewardAmount: 60.0;
                 }
             }
             * > actions {

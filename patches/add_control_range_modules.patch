@@ -1,0 +1,57 @@
+:parts #probe* {
+    +Module_ControlRange {
+        +Data_ControlRange {
+            ControlRangeDefinitions: [
+                {
+                    RequiredTechs: [],
+                    AllowedScienceSituations: {
+                        Kerbin: [Landed,Splashed,Atmosphere,LowOrbit]
+                    },
+                    LocalizationKey: "WMCC/NearKerbin"
+                },
+                {
+                    RequiredTechs: [wmcc_longer_range_communications],
+                    AllowedScienceSituations: {
+                        Kerbin: [HighOrbit],
+                        Mun: [Landed,Splashed,Atmosphere,LowOrbit,HighOrbit],
+                        Minmus: [Landed,Splashed,Atmosphere,LowOrbit,HighOrbit],
+                    },
+                    LocalizationKey: "WMCC/KerbinSOI"
+                },
+                {
+                    RequiredTechs: [wmcc_longer_range_communications, wmcc_even_longer_range_communications],
+                    AllowedScienceSituations: {
+                        Kerbol: [Landed,Splashed,Atmosphere,LowOrbit,HighOrbit],
+                        Duna: [Landed,Splashed,Atmosphere,LowOrbit,HighOrbit],
+                        Ike: [Landed,Splashed,Atmosphere,LowOrbit,HighOrbit],
+                        Gilly: [Landed,Splashed,Atmosphere,LowOrbit,HighOrbit],
+                        Moho: [Landed,Splashed,Atmosphere,LowOrbit,HighOrbit],
+                        Dres: [Landed,Splashed,Atmosphere,LowOrbit,HighOrbit],
+                    },
+                    LocalizationKey: "WMCC/InnerKerbolarSystem"
+                },
+                {
+                    RequiredTechs: [wmcc_longer_range_communications, wmcc_even_longer_range_communications, wmcc_deep_space_communications],
+                    AllowedScienceSituations: {
+                        Jool: [Landed,Splashed,Atmosphere,LowOrbit,HighOrbit],
+                        Bop: [Landed,Splashed,Atmosphere,LowOrbit,HighOrbit],
+                        Pol: [Landed,Splashed,Atmosphere,LowOrbit,HighOrbit],
+                        Vall: [Landed,Splashed,Atmosphere,LowOrbit,HighOrbit],
+                        Tylo: [Landed,Splashed,Atmosphere,LowOrbit,HighOrbit],
+                        Laythe: [Landed,Splashed,Atmosphere,LowOrbit,HighOrbit],
+                        Eeloo: [Landed,Splashed,Atmosphere,LowOrbit,HighOrbit]
+                    },
+                    LocalizationKey: "WMCC/OuterKerbolarSystem"
+                }
+            ];
+        }
+    }
+    PAMModuleVisualsOverride +: [
+        {
+            PartComponentModuleName: PartComponentModule_ControlRange,
+            ModuleDisplayName: "WMCC/ControlRange",
+            ShowHeader: true,
+            ShowFooter: false
+        }
+    ];
+}
