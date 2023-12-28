@@ -135,7 +135,7 @@ $enable-funny-mission: false;
             Objective: "";
             * > MissionReward {
                 +SciencePoints {
-                    RewardAmount: 60.0;
+                    RewardAmount: 40.0;
                 }
             }
             * > actions {
@@ -189,6 +189,89 @@ $enable-funny-mission: false;
     MissionSaveAssetKey: "";
 }
 
+@new(minmus_impactor)
+:missions {
+    MissionGroup: "";
+    name: "WMCC/MinmusImpactor/Name";
+    description: "WMCC/MinmusImpactor/Description";
+    GameModeFeatureId: ExplorationMissions;
+    type: Secondary;
+    Owner: Agency;
+    state: Inactive;
+    * > missionStages {
+        +_0 {
+            name: Check;
+            description: "";
+            Objective: "WMCC/MinmusImpactor/Objective";
+            MissionRewardType: None;
+            DisplayObjective: true;
+            +PropertyCondition {
+                RequireCurrentValue: true;
+                PropertyTypeAQN: get-property-watcher(IsDestroyedByCbCollision);
+                Inputstring: Minmus;
+                TestWathedBool: true;
+                propOperator: EQUAL;
+                isInput: true;
+            }
+        }
+        +_1 {
+            name: "Mission Complete";
+            description: "";
+            Objective: "";
+            * > MissionReward {
+                +SciencePoints {
+                    RewardAmount: 60.0;
+                }
+            }
+            * > actions {
+                +MissionResolutionAction {
+                    MissionResolution: Complete;
+                    StageEvent: Play_mission_alert_primary;
+                }
+            }
+            IgnoreExceptionBranches: true;
+        }
+    }
+    currentStageIndex: 0;
+    Hidden: false;
+    MissionGranterKey: MissionGranterProbodobodyne;
+    TriumphLoopVideoKey: reward_mission_tier1;
+    VisibleRewards: true;
+    pendingCompletionTest: false;
+    maxStageID: 2;
+    uiDisplayType: Default;
+    * > ContentBranches {
+        +Brief {
+            +MissionCharacterDialogAction {
+                CharacterNameLocKey: "Missions/CharacterName/Keri";
+                CharacterIconKey: keri_neutral;
+                * > Dialogs {
+                    Entries: [
+                        create-dialog("WMCC/MinmusImpactor/Brief1"),
+                        create-dialog("WMCC/MinmusImpactor/Brief2",keri_happy)
+                    ];
+                }
+            }
+        }
+        +Debrief {
+            +MissionCharacterDialogAction {
+                CharacterNameLocKey: "Missions/CharacterName/Keri";
+                CharacterIconKey: keri_neutral;
+                * > Dialogs {
+                    Entries: [
+                        create-dialog("WMCC/MinmusImpactor/Debrief1",keri_happy),
+                    ];
+                }
+                EventTypeOnClosed: get-message(SpawnTriumphWindow);
+                StageEvent: Play_mission_alert_primary_returned_to_missionControl;
+            }
+        }
+        +OnSubmit {
+        }
+    }
+    MissionSaveAssetKey: "";
+}
+
 :missions #Main_Kerbin_01 {
     name: "WMCC/SoundingRocketTen/Name";
     description: "WMCC/SoundingRocketTen/Description";
@@ -208,6 +291,12 @@ $enable-funny-mission: false;
 :missions #Main_Kerbin_03 > ContentBranches > OnSubmit > ActivateMissionAction {
     @if $$TargetMissionID == KSP2Mission_Secondary_Kerbin_EVASpace {
         TargetMissionID: munar_impactor;
+    }
+}
+:missions #Main_Kerbin_03 > ContentBranches > OnSubmit {
+    +ActivateMissionAction {
+        TargetMissionID: minmus_impactor;
+        MissionOwner: Agency;
     }
 }
 

@@ -11,6 +11,12 @@ WMCC/MunarImpactor/Brief2,Text,,"I want you to destroy one of our probes.."
 WMCC/MunarImpactor/Brief3,Text,,"Not on Kerbin mind you, but by smashing it into the Mun!"
 WMCC/MunarImpactor/Brief4,Text,,"I know you can do it!"
 WMCC/MunarImpactor/Debrief1,Text,,"We did it! We smashed a probe into the mun ... for science!"
+WMCC/MinmusImpactor/Name,Text,,Minmus Impactor
+WMCC/MinmusImpactor/Description,Text,,Launch a probe that impacts Minmus.
+WMCC/MinmusImpactor/Objective,Text,,Crash into Minmus!
+WMCC/MinmusImpactor/Brief1,Text,,"Now that we have reached orbit, I have a second odd goal for you"
+WMCC/MinmusImpactor/Brief2,Text,,"I want you to destroy one of our probes by smashing it into Minmus!"
+WMCC/MinmusImpactor/Debrief1,Text,,"We did it! We smashed a probe into Minmus ... for science!"
 WMCC/SoundingRocketHigh/Name,Text,,Sounding Rocket (500 km)
 WMCC/SoundingRocketHigh/Description,Text,,Launch a sounding rocket to 500 km
 WMCC/SoundingRocketHigh/Objective,Text,,Launch a rocket to at least 500 km altitude
@@ -22,6 +28,9 @@ WMCC/Flavor/TelemetryReport,Text,,*BEEP* *BOOP* *BEEEEEEEEEEP*
 WMCC/PressurizedCockpit,Text,,"Pressurized Interior"
 WMCC/ControlRange,Text,,"Control Range"
 WMCC/NearKerbin,Text,,"Near Kerbin"
+WMCC/KerbinSOI,Text,,"Kerbin's SOI"
+WMCC/InnerKerbolarSystem,Text,,"Inner Kerbolar System"
+WMCC/OuterKerbolarSystem,Text,,"Outer Kerbolar System"
 WMCC/TechNodes/Names/wmcc_early_sounding_rockets,"Text",,"Early Sounding Rockets"
 WMCC/TechNodes/Descriptions/wmcc_early_sounding_rockets,"Text",,"Welcome to your position director. We found these parts in the shed behind the VAB. I hope they are of use."
 WMCC/TechNodes/Names/wmcc_rapid_planned_disassembly,"Text",,"Rapid Planned Disassembly"
