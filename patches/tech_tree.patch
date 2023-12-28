@@ -8,7 +8,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_early_sounding_rockets";
-    IconID: "";
+    IconID: "ICO-RDCenter-Probe-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_early_sounding_rockets";
@@ -31,7 +31,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_larger_boosters";
-    IconID: "";
+    IconID: "ICO-RDCenter-Tier1Rocket-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_larger_boosters";
@@ -52,7 +52,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_basic_construction";
-    IconID: "";
+    IconID: "ICO-RDCenter-Construction-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_basic_construction";
@@ -75,7 +75,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_basic_aerodynamics";
-    IconID: "";
+    IconID: "ICO-RDCenter-Aero-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_basic_aerodynamics";
@@ -97,7 +97,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_larger_aerodynamics";
-    IconID: "";
+    IconID: "ICO-RDCenter-Aero-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_larger_aerodynamics";
@@ -121,7 +121,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_basic_survivability";
-    IconID: "";
+    IconID: "ICO-RDCenter-Chute-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_basic_survivability";
@@ -143,7 +143,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_early_jet_planes";
-    IconID: "";
+    IconID: "ICO-RDCenter-Plane-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_early_jet_planes";
@@ -172,7 +172,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_more_fuel_tanks";
-    IconID: "";
+    IconID: "ICO-RDCenter-Tier1Rocket-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_more_fuel_tanks";
@@ -193,7 +193,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_early_electronics";
-    IconID: "";
+    IconID: "ICO-RDCenter-SolarPanel-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_early_electronics";
@@ -219,7 +219,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_larger_radial_tanks";
-    IconID: "";
+    IconID: "ICO-RDCenter-Tier1Rocket-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_larger_radial_tanks";
@@ -239,7 +239,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_monopropellant_engines";
-    IconID: "";
+    IconID: "ICO-RDCenter-Tier1Rocket-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_monopropellant_engines";
@@ -262,7 +262,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_advanced_survivability";
-    IconID: "";
+    IconID: "ICO-RDCenter-Chute-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_advanced_survivability";
@@ -284,7 +284,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_better_probes";
-    IconID: "";
+    IconID: "ICO-RDCenter-Probe-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_better_probes";
@@ -305,7 +305,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_rapid_planned_disassembly";
-    IconID: "";
+    IconID: "ICO-RDCenter-Coupling-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_rapid_planned_disassembly";
@@ -326,7 +326,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_early_science";
-    IconID: "";
+    IconID: "ICO-RDCenter-Science-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_early_science";
@@ -346,7 +346,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_better_electronics";
-    IconID: "";
+    IconID: "ICO-RDCenter-SolarPanel-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_better_electronics";
@@ -366,7 +366,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_miniaturized_science";
-    IconID: "";
+    IconID: "ICO-RDCenter-Science-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_miniaturized_science";
@@ -386,7 +386,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_longer_range_communications";
-    IconID: "";
+    IconID: "ICO-RDCenter-RadarDish-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_longer_range_communications";
@@ -407,7 +407,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_crewed_rocketry";
-    IconID: "";
+    IconID: "ICO-RDCenter-Kerbal-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_crewed_rocketry";
@@ -427,7 +427,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_crewed_landings";
-    IconID: "";
+    IconID: "ICO-RDCenter-MoonLander-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_crewed_landings";
@@ -449,7 +449,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_small_payload_bays";
-    IconID: "";
+    IconID: "ICO-RDCenter-Payload-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_small_payload_bays";
@@ -470,7 +470,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_larger_trusses_and_junctions";
-    IconID: "";
+    IconID: "ICO-RDCenter-Trusses-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_larger_trusses_and_junctions";
@@ -499,7 +499,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_better_planned_disassembly";
-    IconID: "";
+    IconID: "ICO-RDCenter-Coupling-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_better_planned_disassembly";
@@ -521,7 +521,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_larger_orbital_rockets";
-    IconID: "";
+    IconID: "ICO-RDCenter-Tier2Rocket-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_larger_orbital_rockets";
@@ -549,7 +549,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_better_landing_engines";
-    IconID: "";
+    IconID: "ICO-RDCenter-MoonLander-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_better_landing_engines";
@@ -571,7 +571,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_fuel_lines";
-    IconID: "";
+    IconID: "ICO-RDCenter-Fuel-Line-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_fuel_lines";
@@ -591,7 +591,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_larger_probes";
-    IconID: "";
+    IconID: "ICO-RDCenter-Probe-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_larger_probes";
@@ -613,7 +613,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_even_larger_boosters";
-    IconID: "";
+    IconID: "ICO-RDCenter-Tier2Rocket-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_even_larger_boosters";
@@ -635,7 +635,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_even_longer_range_communications";
-    IconID: "";
+    IconID: "ICO-RDCenter-RadarDish-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_even_longer_range_communications";
@@ -657,7 +657,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_advanced_electronics";
-    IconID: "";
+    IconID: "ICO-RDCenter-SolarPanel-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_advanced_electronics";
@@ -680,7 +680,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_atmospheric_science";
-    IconID: "";
+    IconID: "ICO-RDCenter-Science-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_atmospheric_science";
@@ -700,7 +700,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_intermediate_construction";
-    IconID: "";
+    IconID: "ICO-RDCenter-Construction-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_intermediate_construction";
@@ -728,7 +728,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_advanced_construction";
-    IconID: "";
+    IconID: "ICO-RDCenter-Construction-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_advanced_construction";
@@ -758,7 +758,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_ionic_power";
-    IconID: "";
+    IconID: "ICO-RDCenter-Tier1Rocket-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_ionic_power";
@@ -782,7 +782,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_larger_srbs";
-    IconID: "";
+    IconID: "ICO-RDCenter-Tier1Rocket-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_larger_srbs";
@@ -803,7 +803,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_efficient_launch_systems";
-    IconID: "";
+    IconID: "ICO-RDCenter-Tier1Rocket-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_efficient_launch_systems";
@@ -823,7 +823,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_advanced_adapters_and_connectors";
-    IconID: "";
+    IconID: "ICO-RDCenter-Construction-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_advanced_adapters_and_connectors";
@@ -854,7 +854,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_early_docking_ports";
-    IconID: "";
+    IconID: "ICO-RDCenter-Docking-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_early_docking_ports";
@@ -874,7 +874,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_enhanced_disassembly";
-    IconID: "";
+    IconID: "ICO-RDCenter-Coupling-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_enhanced_disassembly";
@@ -896,7 +896,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_docking_ports";
-    IconID: "";
+    IconID: "ICO-RDCenter-Docking-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_docking_ports";
@@ -916,7 +916,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_advanced_aerodynamics";
-    IconID: "";
+    IconID: "ICO-RDCenter-Aero-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_advanced_aerodynamics";
@@ -943,7 +943,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_larger_jets";
-    IconID: "";
+    IconID: "ICO-RDCenter-Plane-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_larger_jets";
@@ -965,7 +965,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_mark_two_jet_planes";
-    IconID: "";
+    IconID: "ICO-RDCenter-Plane-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_mark_two_jet_planes";
@@ -993,7 +993,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_high_altitude_aviation";
-    IconID: "";
+    IconID: "ICO-RDCenter-Plane-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_high_altitude_aviation";
@@ -1019,7 +1019,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_passengers_and_cargo";
-    IconID: "";
+    IconID: "ICO-RDCenter-Payload-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_passengers_and_cargo";
@@ -1047,7 +1047,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_larger_payloads";
-    IconID: "";
+    IconID: "ICO-RDCenter-Payload-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_larger_payloads";
@@ -1072,7 +1072,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_even_larger_trusses";
-    IconID: "";
+    IconID: "ICO-RDCenter-Trusses-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_even_larger_trusses";
@@ -1097,7 +1097,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_even_larger_adapters";
-    IconID: "";
+    IconID: "ICO-RDCenter-Construction-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_even_larger_adapters";
@@ -1123,7 +1123,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_trusses";
-    IconID: "";
+    IconID: "ICO-RDCenter-Trusses-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_trusses";
@@ -1150,7 +1150,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_safer_rocketry";
-    IconID: "";
+    IconID: "ICO-RDCenter-Chute-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_safer_rocketry";
@@ -1176,7 +1176,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_heavier_landers";
-    IconID: "";
+    IconID: "ICO-RDCenter-MoonLander-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_heavier_landers";
@@ -1198,7 +1198,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_autonomous_exploration";
-    IconID: "";
+    IconID: "ICO-RDCenter-Rover-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_autonomous_exploration";
@@ -1220,7 +1220,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_buggies";
-    IconID: "";
+    IconID: "ICO-RDCenter-Kerbal-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_buggies";
@@ -1240,7 +1240,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_robotic_arms";
-    IconID: "";
+    IconID: "ICO-RDCenter-Science-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_robotic_arms";
@@ -1260,7 +1260,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_larger_wheels";
-    IconID: "";
+    IconID: "ICO-RDCenter-Rover-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_larger_wheels";
@@ -1280,7 +1280,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_compact_atmospheric_science";
-    IconID: "";
+    IconID: "ICO-RDCenter-Science-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_compact_atmospheric_science";
@@ -1300,7 +1300,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_larger_crew_capsules";
-    IconID: "";
+    IconID: "ICO-RDCenter-Kerbal-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_larger_crew_capsules";
@@ -1323,7 +1323,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_heavy_orbital_rocketry";
-    IconID: "";
+    IconID: "ICO-RDCenter-Tier3Rocket-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_heavy_orbital_rocketry";
@@ -1347,7 +1347,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_heavy_launchers";
-    IconID: "";
+    IconID: "ICO-RDCenter-Tier3Rocket-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_heavy_launchers";
@@ -1369,7 +1369,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_deep_space_communications";
-    IconID: "";
+    IconID: "ICO-RDCenter-RadarDish-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_deep_space_communications";
@@ -1391,7 +1391,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_heavy_maneuvering";
-    IconID: "";
+    IconID: "ICO-RDCenter-Tier3Rocket-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_heavy_maneuvering";
@@ -1415,7 +1415,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_vacuum_engines";
-    IconID: "";
+    IconID: "ICO-RDCenter-Tier3Rocket-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_vacuum_engines";
@@ -1437,7 +1437,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_nuclear_propulsion";
-    IconID: "";
+    IconID: "ICO-RDCenter-Atomic-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_nuclear_propulsion";
@@ -1460,7 +1460,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_deep_space_power";
-    IconID: "";
+    IconID: "ICO-RDCenter-Power-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_deep_space_power";
@@ -1482,7 +1482,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_nuclear_reactors";
-    IconID: "";
+    IconID: "ICO-RDCenter-Atomic-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_nuclear_reactors";
@@ -1502,7 +1502,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_larger_solar_panels";
-    IconID: "";
+    IconID: "ICO-RDCenter-SolarPanel-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_larger_solar_panels";
@@ -1523,7 +1523,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_radiation_science";
-    IconID: "";
+    IconID: "ICO-RDCenter-Science-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_radiation_science";
@@ -1543,7 +1543,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_orbital_science";
-    IconID: "";
+    IconID: "ICO-RDCenter-Science-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_orbital_science";
@@ -1563,7 +1563,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_large_scale_construction";
-    IconID: "";
+    IconID: "ICO-RDCenter-Construction-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_large_scale_construction";
@@ -1590,7 +1590,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_large_scale_adapters";
-    IconID: "";
+    IconID: "ICO-RDCenter-Construction-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_large_scale_adapters";
@@ -1616,7 +1616,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_heavy_payloads";
-    IconID: "";
+    IconID: "ICO-RDCenter-Payload-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_heavy_payloads";
@@ -1642,7 +1642,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_better_planned_reassembly";
-    IconID: "";
+    IconID: "ICO-RDCenter-Docking-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_better_planned_reassembly";
@@ -1665,7 +1665,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_robust_aerodynamics";
-    IconID: "";
+    IconID: "ICO-RDCenter-Aero-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_robust_aerodynamics";
@@ -1690,7 +1690,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_widebody_planes";
-    IconID: "";
+    IconID: "ICO-RDCenter-BigPlane-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_widebody_planes";
@@ -1716,7 +1716,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_advanced_jets";
-    IconID: "";
+    IconID: "ICO-RDCenter-BigPlane-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_advanced_jets";
@@ -1742,7 +1742,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_very_large_crew_capsules";
-    IconID: "";
+    IconID: "ICO-RDCenter-Kerbal-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_very_large_crew_capsules";
@@ -1763,7 +1763,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_very_large_fuel_tanks";
-    IconID: "";
+    IconID: "ICO-RDCenter-Tier4Rocket-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_very_large_fuel_tanks";
@@ -1788,7 +1788,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_very_large_hydrogen_tanks";
-    IconID: "";
+    IconID: "ICO-RDCenter-Atomic-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_very_large_hydrogen_tanks";
@@ -1810,7 +1810,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_large_hydrogen_tanks";
-    IconID: "";
+    IconID: "ICO-RDCenter-Atomic-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_large_hydrogen_tanks";
@@ -1831,7 +1831,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_efficient_nuclear_propulsion";
-    IconID: "";
+    IconID: "ICO-RDCenter-Atomic-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_efficient_nuclear_propulsion";
@@ -1851,7 +1851,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_very_large_electronics";
-    IconID: "";
+    IconID: "ICO-RDCenter-Power-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_very_large_electronics";
@@ -1872,7 +1872,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_very_large_probes";
-    IconID: "";
+    IconID: "ICO-RDCenter-Probe-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_very_large_probes";
@@ -1892,7 +1892,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_longer_period_science";
-    IconID: "";
+    IconID: "ICO-RDCenter-Science-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_longer_period_science";
@@ -1912,7 +1912,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_the_not_so_final_frontier";
-    IconID: "";
+    IconID: "ICO-RDCenter-Science-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_the_not_so_final_frontier";
@@ -1932,7 +1932,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_very_large_construction";
-    IconID: "";
+    IconID: "ICO-RDCenter-Construction-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_very_large_construction";
@@ -1954,7 +1954,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_very_large_trusses";
-    IconID: "";
+    IconID: "ICO-RDCenter-Trusses-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_very_large_trusses";
@@ -1979,7 +1979,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_very_large_adapters";
-    IconID: "";
+    IconID: "ICO-RDCenter-Construction-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_very_large_adapters";
@@ -2008,7 +2008,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_very_large_payloads";
-    IconID: "";
+    IconID: "ICO-RDCenter-Payload-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_very_large_payloads";
@@ -2034,7 +2034,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_interplanetary_truck_simulator";
-    IconID: "";
+    IconID: "ICO-RDCenter-Rover-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_interplanetary_truck_simulator";
@@ -2057,7 +2057,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_very_large_disassembly";
-    IconID: "";
+    IconID: "ICO-RDCenter-Coupling-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_very_large_disassembly";
@@ -2079,7 +2079,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_very_large_reassembly";
-    IconID: "";
+    IconID: "ICO-RDCenter-Docking-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_very_large_reassembly";
@@ -2100,7 +2100,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_larger_scale_disassembly";
-    IconID: "";
+    IconID: "ICO-RDCenter-Coupling-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_larger_scale_disassembly";
@@ -2121,7 +2121,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_sstos";
-    IconID: "";
+    IconID: "ICO-RDCenter-Aero-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_sstos";
@@ -2144,7 +2144,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_mark_three_spaceplanes";
-    IconID: "";
+    IconID: "ICO-RDCenter-BigPlane-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_mark_three_spaceplanes";
@@ -2171,7 +2171,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_mark_three_payloads";
-    IconID: "";
+    IconID: "ICO-RDCenter-Payload-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_mark_three_payloads";
@@ -2195,7 +2195,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_larger_electronics";
-    IconID: "";
+    IconID: "ICO-RDCenter-Power-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_larger_electronics";
@@ -2217,7 +2217,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_very_heavy_landings";
-    IconID: "";
+    IconID: "ICO-RDCenter-MoonLander-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_very_heavy_landings";
@@ -2240,7 +2240,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_deep_space_probes";
-    IconID: "";
+    IconID: "ICO-RDCenter-Probe-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_deep_space_probes";
@@ -2263,7 +2263,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_advanced_electronics_plus";
-    IconID: "";
+    IconID: "ICO-RDCenter-SolarPanel-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_advanced_electronics_plus";
@@ -2287,7 +2287,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_methalox_rcs";
-    IconID: "";
+    IconID: "ICO-RDCenter-Tier1Rocket-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_methalox_rcs";
@@ -2307,7 +2307,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_efficient_small_engines";
-    IconID: "";
+    IconID: "ICO-RDCenter-Tier1Rocket-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_efficient_small_engines";
@@ -2327,7 +2327,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_larger_methalox_engines";
-    IconID: "";
+    IconID: "ICO-RDCenter-Tier1Rocket-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_larger_methalox_engines";
@@ -2349,7 +2349,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_orbital_maneuvering";
-    IconID: "";
+    IconID: "ICO-RDCenter-Tier1Rocket-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_orbital_maneuvering";
@@ -2372,7 +2372,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_munar_range_rocketry";
-    IconID: "";
+    IconID: "ICO-RDCenter-Tier1Rocket-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_munar_range_rocketry";
@@ -2393,7 +2393,7 @@
 :science {
     Version: 4;
     NameLocKey: "WMCC/TechNodes/Names/wmcc_small_radial_engines";
-    IconID: "";
+    IconID: "ICO-RDCenter-Tier1Rocket-24x";
     CategoryID: "";
     HiddenByNodeID: "";
     DescriptionLocKey: "WMCC/TechNodes/Descriptions/wmcc_small_radial_engines";
