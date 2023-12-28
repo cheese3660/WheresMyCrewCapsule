@@ -1,62 +1,24 @@
-====Tier One====
-tNode_0v_start (Starting Rocketry)
-OLD PARTS THAT STILL NEED TO BE MOVED:
-pod_1v_conical_crew,
-parachute_0v
-NEW PARTS:
-probe_0v_spherical_electricity,
-storage_0v_battery_electricity_radial,
-antenna_0v_16,
-antenna_0v_16s,
-engine_0v_methalox_spark,
-fueltank_0v_inline_methalox,
-
-tNode_1v_rockets_01 (Light Launchers) -> (Enhanced Rocketry)
-OLD PARTS THAT STILL NEED TO BE MOVED:
-NEW PARTS:
-fueltank_0v_inline_methalox_doughnut,
-fueltank_0v_radial_methalox_spherical,
-decoupler_0v_inline,
-decoupler_1v_radial,
-
-tNode_1v_rockets_02 (Solid Fuel Boosters) -> (Larger Boosters)
-OLD PARTS THAT STILL NEED TO BE MOVED:
-booster_1v_solid_hammer
-NEW PARTS:
-engine_1v_methalox_swivel,
-fueltank_1v_inline_methalox_1x1,
-fueltank_1v_inline_methalox_1x2,
-decoupler_1v_inline,
-
-tNode_1v_rockets_03 (Orbital Rocketry)
-OLD PARTS THAT STILL NEED TO BE MOVED:
-engine_1v_methalox_terrier
-booster_1v_solid_thumper
-NEW PARTS:
-booster_1v_solid_flea
-engine_1v_methalox_reliant,
-fueltank_1v_inline_methalox_1x4,
-
-
-tNode_1v_aero_01 (Aerodynamics and Stability)
-OLD PARTS THAT STILL NEED TO BE MOVED:
-controlsurface_1v_procedural_light,
-stabilizer_1v_reactionwheel,
-stabilizer_1v_procedural_light,
-NEW PARTS:
-fin_0v_procedural,
-stabilizer_0v_reactionwheel,
-nosecone_1v_hemisphere,
-nosecone_0v
-
-
-
-adapter_1v_conical_0v-1v <- To go into basic construction
-
-====Tier Two====
-
-
-====Tier Three====
-
-
-====Tier Four====
+Tech Tree Category Icons:
+- ICO-RDCenter-Plane-24x (Plane)
+- ICO-RDCenter-Probe-24x (Probe)
+- ICO-RDCenter-Fuel-Line-24x (Fuel Line)
+- ICO-RDCenter-Tier1Rocket-24x (Tier 1 Rocket)
+- ICO-RDCenter-Science-24x (Science)
+- ICO-RDCenter-Trusses-24x (Trusses)
+- ICO-RDCenter-Chute-24x (Chute)
+- ICO-RDCenter-Aero-24x (Aero)
+- ICO-RDCenter-Construction-24x (Construction)
+- ICO-RDCenter-Coupling-24x (Coupling)
+- ICO-RDCenter-Docking-24x (Docking)
+- ICO-RDCenter-SolarPanel-24x (Solar Panel)
+- ICO-RDCenter-RadarDish-24x (Radar Dish)
+- ICO-RDCenter-Payload-24x (Payload)
+- ICO-RDCenter-Rover-24x (Rover)
+- ICO-RDCenter-Kerbal-24x (Kerbal)
+- ICO-RDCenter-Power-24x (Power)
+- ICO-RDCenter-Atomic-24x (Atomic)
+- ICO-RDCenter-Tier2Rocket-24x (Tier 2 Rocket)
+- ICO-RDCenter-MoonLander-24x (Moon Lander)
+- ICO-RDCenter-BigPlane-24x (Big Plane)
+- ICO-RDCenter-Tier3Rocket-24x (Tier 3 Rocket)
+- ICO-RDCenter-Tier4Rocket-24x (Tier 4 Rocket)
